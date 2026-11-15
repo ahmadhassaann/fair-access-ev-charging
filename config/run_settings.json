@@ -1,0 +1,12 @@
+{
+  "chargers": 6,
+  "charger_power_kw": 6,
+  "slots_per_day": 16,
+  "kwh_per_full_slot": 3,
+  "policies": {"P0": {"fee_F": 0}, "P1": {"fee_F": 2}},
+  "demand_levels": ["low", "medium", "high"],
+  "seeds": [0, 1, 2, 3, 4],
+  "days_per_run": 60,
+  "urgent_prior": 0.30,
+  "limit_check": {"demand": "medium", "all_drivers_rule": "Hold"}
+}
