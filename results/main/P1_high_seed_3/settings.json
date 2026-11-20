@@ -1,0 +1,9 @@
+{
+  "policy": "P1",
+  "demand": "high",
+  "seed": 3,
+  "fee": 2,
+  "n_chargers": 6,
+  "n_days": 60,
+  "limit_run": false
+}

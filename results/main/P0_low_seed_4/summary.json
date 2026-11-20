@@ -1,0 +1,23 @@
+{
+  "n_visits": 720,
+  "avg_waiting": 0.0125,
+  "share_fully_served": 1.0,
+  "total_energy": 4152.0,
+  "total_idle": 514,
+  "avg_utility_before": 15.083333333333334,
+  "avg_utility_after": 15.083333333333334,
+  "urgent_n": 301,
+  "urgent_avg_waiting": 0.016611295681063124,
+  "urgent_share_fully_served": 1.0,
+  "urgent_total_energy": 1710.0,
+  "urgent_total_idle": 163,
+  "urgent_avg_utility_before": 17.53488372093023,
+  "urgent_avg_utility_after": 17.53488372093023,
+  "flexible_n": 419,
+  "flexible_avg_waiting": 0.00954653937947494,
+  "flexible_share_fully_served": 1.0,
+  "flexible_total_energy": 2442.0,
+  "flexible_total_idle": 351,
+  "flexible_avg_utility_before": 13.322195704057279,
+  "flexible_avg_utility_after": 13.322195704057279
+}

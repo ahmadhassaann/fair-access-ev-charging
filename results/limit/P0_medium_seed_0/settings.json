@@ -1,0 +1,10 @@
+{
+  "policy": "P0",
+  "demand": "medium",
+  "seed": 0,
+  "fee": 0,
+  "n_chargers": 6,
+  "n_days": 60,
+  "limit_run": true,
+  "forced_rule": "Hold"
+}

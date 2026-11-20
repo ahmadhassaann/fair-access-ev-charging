@@ -1,0 +1,14 @@
+{
+  "chargers": 6,
+  "charger_power_kw": 6,
+  "slots_per_day": 16,
+  "kwh_per_full_slot": 3,
+  "policies": {
+    "P0": {"fee": 0},
+    "P1": {"fee": 2}
+  },
+  "driver_types": {
+    "Urgent": {"v": 3, "w": 3, "h": 1, "prior": 0.30},
+    "Flexible": {"v": 2, "w": 1, "h": 2, "prior": 0.70}
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "starts": {"A": 0, "B": 2, "C": 3},
+  "total_waiting": 4,
+  "total_energy": 15.0,
+  "total_utility": 25.0,
+  "drivers": {
+    "A": {"start": 0, "energy": 6.0, "wait": 0, "idle": 0, "utility": 12.0},
+    "B": {"start": 2, "energy": 3.0, "wait": 2, "idle": 0, "utility": 3.0},
+    "C": {"start": 3, "energy": 6.0, "wait": 2, "idle": 0, "utility": 10.0}
+  }
+}

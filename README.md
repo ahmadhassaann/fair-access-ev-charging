@@ -15,7 +15,7 @@ P0 (first come first served, no penalty) with P1 (same queue, idle penalty of
 - All 30 main runs + 10 fixed-Hold limit runs: `python scripts/run_all.py`
 - Figures: `python scripts/make_figures.py`
 - Tests: `pytest tests/`
-- Results screen: `python src/app/results_screen.py`
+- Results screen: `python -m streamlit run src/app/results_screen.py`
 
 ## Layout
 See the folder tree: `src/` (code), `data/` (inputs, one folder per seed),

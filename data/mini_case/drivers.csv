@@ -1,0 +1,4 @@
+driver_id,type,v,w,h,rule
+A,Flexible,2,1,2,Release
+B,Urgent,3,3,1,Release
+C,Flexible,2,1,2,Release
