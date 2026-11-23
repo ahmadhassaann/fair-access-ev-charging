@@ -14,7 +14,7 @@ SLOTS_PER_DAY = 16
 KWH_PER_SLOT = 3  # each charger supplies up to 3 kWh per full slot
 
 
-def run_day(requests, drivers, policy, state):
+def run_day(requests, drivers, policy, state, day_slots=16):
     """Simulate one day of charging.
 
     Args:
@@ -27,11 +27,12 @@ def run_day(requests, drivers, policy, state):
             'queue': ChargerQueue instance
             'last_visits': dict driver_id -> last visit info
             'n_chargers': int
+        day_slots: int, number of slots per day (default 16, or 6 for mini case)
 
     Returns:
         (visits, state): visits is a list of visit record dicts; state is updated.
     """
-    fee = policy['fee']
+    fee = policy.get('fee', policy.get('fee_per_idle_slot', 0))
     queue = state['queue']
     last_visits = state.get('last_visits', {})
     queue.reset()
@@ -47,11 +48,10 @@ def run_day(requests, drivers, policy, state):
         slot = req['arrival']
         arrivals_by_slot.setdefault(slot, []).append(req)
 
-    # Track charging state: driver_id -> {energy_delivered, start_slot, ...}
-    charging = {}  # driver_id -> charging state dict
+    charging = {}  # driver_id -> True
     holding = {}   # driver_id -> slots remaining in hold
 
-    for boundary in range(SLOTS_PER_DAY + 1):  # 0..16
+    for boundary in range(day_slots + 1):  # 0..day_slots
 
         # === STEP 1: Finish energy from previous interval; remove departures ===
         if boundary > 0:
@@ -63,6 +63,10 @@ def run_day(requests, drivers, policy, state):
                 remaining = rec['requested_kwh'] - rec['energy_delivered']
                 delivered = min(KWH_PER_SLOT, remaining)
                 rec['energy_delivered'] += delivered
+
+                # Check if charging completed at this boundary
+                if rec['energy_delivered'] >= rec['requested_kwh'] and rec['finish'] is None:
+                    rec['finish'] = boundary
 
             # Remove drivers whose departure has arrived
             for did in list(active.keys()):
@@ -76,6 +80,15 @@ def run_day(requests, drivers, policy, state):
                         del charging[did]
                     if did in holding:
                         del holding[did]
+                    if rec['release'] is None:
+                        rec['release'] = boundary
+                    if rec['action'] is None:
+                        if rec['finish'] == boundary:
+                            rec['action'] = 'Forced Release'
+                        elif rec['start_slot'] is None:
+                            rec['action'] = 'Unserved'
+                        else:
+                            rec['action'] = 'Departure'
                     _finalize_visit(rec, drivers, fee, last_visits, visits, boundary)
                     del active[did]
 
@@ -89,14 +102,17 @@ def run_day(requests, drivers, policy, state):
                 if rec is None:
                     continue
                 if rec['energy_delivered'] >= rec['requested_kwh']:
-                    # Fully charged - ask for hold/release decision
-                    rec['charge_end_slot'] = boundary
+                    # Fully charged
+                    if rec['finish'] is None:
+                        rec['finish'] = boundary
                     dep = rec['departure']
                     slots_before_departure = dep - boundary
                     legal_hold_max = min(2, slots_before_departure)
 
                     if legal_hold_max <= 0:
                         # Completion at departure forces release
+                        rec['action'] = 'Forced Release'
+                        rec['release'] = boundary
                         cid = queue.find_charger(did)
                         if cid is not None:
                             queue.free_charger(cid)
@@ -111,6 +127,8 @@ def run_day(requests, drivers, policy, state):
                         )
                         if hold_slots == 0:
                             # Release
+                            rec['action'] = 'Release'
+                            rec['release'] = boundary
                             cid = queue.find_charger(did)
                             if cid is not None:
                                 queue.free_charger(cid)
@@ -119,6 +137,7 @@ def run_day(requests, drivers, policy, state):
                             del active[did]
                         else:
                             # Hold
+                            rec['action'] = f'Hold {hold_slots}'
                             rec['idle_slots'] = hold_slots
                             rec['hold_end'] = boundary + hold_slots
                             holding[did] = hold_slots
@@ -130,6 +149,7 @@ def run_day(requests, drivers, policy, state):
                 if rec is None:
                     continue
                 if rec.get('hold_end', 0) <= boundary:
+                    rec['release'] = boundary
                     cid = queue.find_charger(did)
                     if cid is not None:
                         queue.free_charger(cid)
@@ -149,17 +169,16 @@ def run_day(requests, drivers, policy, state):
                     'requested_kwh': req['requested_kwh'],
                     'energy_delivered': 0.0,
                     'start_slot': None,
-                    'charge_end_slot': None,
+                    'finish': None,
+                    'release': None,
+                    'action': None,
                     'idle_slots': 0,
                     'hold_end': None,
                 }
                 active[did] = rec
                 waiting.append(req)
 
-        # Also add previously waiting drivers who are still waiting
-        # (waiting list maintained below after allocation)
-
-        if boundary < SLOTS_PER_DAY:
+        if boundary < day_slots:
             # Allocate free chargers to waiting drivers
             still_waiting = []
             for w in waiting:
@@ -181,8 +200,6 @@ def run_day(requests, drivers, policy, state):
                     new_waiting.append(w)
             waiting = new_waiting
 
-            # Charge during next interval happens at next boundary (step 1)
-
     # End of day: finalize any remaining active drivers
     for did in list(active.keys()):
         rec = active[did]
@@ -193,7 +210,11 @@ def run_day(requests, drivers, policy, state):
             del charging[did]
         if did in holding:
             del holding[did]
-        _finalize_visit(rec, drivers, fee, last_visits, visits, SLOTS_PER_DAY)
+        if rec['release'] is None:
+            rec['release'] = day_slots
+        if rec['action'] is None:
+            rec['action'] = 'End of Day'
+        _finalize_visit(rec, drivers, fee, last_visits, visits, day_slots)
         del active[did]
 
     state['last_visits'] = last_visits
@@ -214,7 +235,7 @@ def _finalize_visit(rec, drivers, fee, last_visits, visits, end_boundary):
     if start is not None:
         wait_slots = start - arrival
     else:
-        # Never served
+        # Never served: waiting lasts from arrival to departure
         wait_slots = rec['departure'] - arrival
 
     fully_served = (energy >= requested)
@@ -231,10 +252,14 @@ def _finalize_visit(rec, drivers, fee, last_visits, visits, end_boundary):
         'arrival': arrival,
         'departure': rec['departure'],
         'start': start,
+        'finish': rec.get('finish'),
+        'release': rec.get('release'),
+        'action': rec.get('action', 'Release'),
         'requested_kwh': requested,
         'energy_kwh': energy,
         'wait_slots': wait_slots,
         'idle_slots': idle,
+        'penalty': fee * idle,
         'fully_served': fully_served,
         'utility_before': util_before,
         'utility_after': util_after,
@@ -269,7 +294,9 @@ def run_simulation(all_requests, drivers, policy, n_chargers, n_days):
     }
 
     all_visits = []
-    for day in range(n_days):
+    # Identify unique days, sorted
+    unique_days = sorted(list(set(r['day'] for r in all_requests)))
+    for day in unique_days:
         day_requests = [r for r in all_requests if r['day'] == day]
         day_visits, state = run_day(day_requests, drivers, policy, state)
         for v in day_visits:

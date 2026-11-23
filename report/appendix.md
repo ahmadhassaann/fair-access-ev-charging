@@ -42,7 +42,7 @@
 
 ## Appendix B: Memory Tree Payoff Matrix and Derivations (Section 3B)
 
-Terminal payoffs from `data/starter/memory_tree.csv`:
+Terminal payoffs from the official `data/starter/memory_tree.csv`:
 
 ```
                          P1 (Root)
@@ -56,18 +56,18 @@ Terminal payoffs from `data/starter/memory_tree.csv`:
               P1        P1       P1        P1
              /  \      /  \     /  \      /  \
             L    R    L    R   L    R    L    R
-          (2,1)(3,0)(1,2)(4,1)(0,3)(2,2)(3,1)(1,0)
+          (1,3)(8,4)(6,1)(0,2)(6,5)(2,2)(3,4)(1,1)
 ```
 
 ### Full Information Backward Induction Table:
-1. Node $LL$: $P_1$ chooses $R \implies u = (3, 0)$
-2. Node $LR$: $P_1$ chooses $R \implies u = (4, 1)$
-3. Node $RL$: $P_1$ chooses $R \implies u = (2, 2)$
-4. Node $RR$: $P_1$ chooses $L \implies u = (3, 1)$
-5. Node $L$ ($P_2$): compares $0$ (at $LL$) vs. $1$ (at $LR$) $\implies$ chooses $R \implies (4, 1)$
-6. Node $R$ ($P_2$): compares $2$ (at $RL$) vs. $1$ (at $RR$) $\implies$ chooses $L \implies (2, 2)$
-7. Root ($P_1$): compares $4$ (via $L \to R \to R$) vs. $2$ (via $R \to L \to R$) $\implies$ chooses $L$.
-- Path: $LRR \implies$ Payoff $(4, 1)$.
+1. Node $LL$: $P_1$ chooses $R \implies u = (8, 4)$
+2. Node $LR$: $P_1$ chooses $L \implies u = (6, 1)$
+3. Node $RL$: $P_1$ chooses $L \implies u = (6, 5)$
+4. Node $RR$: $P_1$ chooses $L \implies u = (3, 4)$
+5. Node $L$ ($P_2$): compares $4$ (at $LL$) vs. $1$ (at $LR$) $\implies$ chooses $L \implies (8, 4)$
+6. Node $R$ ($P_2$): compares $5$ (at $RL$) vs. $4$ (at $RR$) $\implies$ chooses $L \implies (6, 5)$
+7. Root ($P_1$): compares $8$ (via $L \to L \to R$) vs. $6$ (via $R \to L \to L$) $\implies$ chooses $L$.
+- Path: $LLR \implies$ Payoffs $(8, 4)$ ($P_1$ gets $8$, $P_2$ gets $4$).
 
 ---
 
@@ -96,15 +96,16 @@ $$x_{t+1} = x_t + \eta \, x_t(1 - x_t) [f_C(x_t) - f_H(x_t)], \quad \eta = 0.05$
 
 ## Appendix D: 3-Driver Mini Case Verification
 
-Deterministic trace with 1 charger, 16 slots:
-- Driver $A$: Flexible ($v=2, w=1, h=2$), arrives 0, departs 16, requests $6\text{ kWh}$ ($2$ slots).
-- Driver $B$: Urgent ($v=3, w=3, h=1$), arrives 0, departs 16, requests $3\text{ kWh}$ ($1$ slot).
-- Driver $C$: Flexible ($v=2, w=1, h=2$), arrives 1, departs 16, requests $6\text{ kWh}$ ($2$ slots).
+Deterministic trace with 1 charger, 6 slots (from `data/starter/mini_case_expected.json`):
+- Driver $A$: Flexible ($v=2, w=1, h=2$), arrives 0, departs 4, requests $6\text{ kWh}$ ($2$ slots).
+- Driver $B$: Urgent ($v=3, w=3, h=1$), arrives 0, departs 5, requests $3\text{ kWh}$ ($1$ slot).
+- Driver $C$: Flexible ($v=2, w=1, h=2$), arrives 1, departs 6, requests $6\text{ kWh}$ ($2$ slots).
 
 | Metric | Scenario 1: All Release | Scenario 2: $A$ Holds 1 Slot |
 | :--- | :---: | :---: |
 | Start times $(A, B, C)$ | $(0, 2, 3)$ | $(0, 3, 4)$ |
-| Completion times | $(2, 3, 5)$ | $(2, 4, 6)$ |
+| Finish times $(A, B, C)$ | $(2, 3, 5)$ | $(2, 4, 6)$ |
+| Release times $(A, B, C)$ | $(2, 3, 5)$ | $(3, 4, 6)$ |
 | Wait slots $(A, B, C)$ | $(0, 2, 2)$ | $(0, 3, 3)$ |
 | Total Waiting Slots | **4** | **6** |
 | Total Delivered Energy | **15.0 kWh** | **15.0 kWh** |

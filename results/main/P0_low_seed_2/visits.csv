@@ -1,721 +1,721 @@
-driver_id,type,day,arrival,departure,start,requested_kwh,energy_kwh,wait_slots,idle_slots,fully_served,utility_before,utility_after,rule
-D14,Urgent,0,0,2,0,3.0,3.0,0,1,True,10.0,10.0,Hold
-D06,Flexible,0,0,8,0,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D26,Flexible,0,2,4,2,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D17,Flexible,0,1,4,1,3.0,3.0,0,2,True,10.0,10.0,Hold
-D38,Flexible,0,3,15,3,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D36,Flexible,0,5,12,5,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D07,Flexible,0,6,8,6,3.0,3.0,0,1,True,8.0,8.0,Fee_aware
-D39,Flexible,0,5,11,5,3.0,3.0,0,2,True,10.0,10.0,Hold
-D33,Flexible,0,5,16,5,9.0,9.0,0,2,True,22.0,22.0,Fee_aware
-D35,Flexible,0,8,15,8,3.0,3.0,0,2,True,10.0,10.0,Hold
-D03,Urgent,0,12,14,12,3.0,3.0,0,1,True,10.0,10.0,Hold
-D08,Flexible,0,13,15,13,3.0,3.0,0,0,True,6.0,6.0,Release
-D12,Flexible,1,0,4,0,3.0,3.0,0,2,True,10.0,10.0,Hold
-D31,Flexible,1,0,9,0,3.0,3.0,0,2,True,10.0,10.0,Hold
-D27,Flexible,1,2,5,2,6.0,6.0,0,1,True,14.0,14.0,Fee_aware
-D02,Flexible,1,4,15,4,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D19,Flexible,1,7,14,7,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D01,Urgent,1,8,14,8,6.0,6.0,0,0,True,18.0,18.0,Reciprocal
-D18,Flexible,1,7,12,7,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D16,Flexible,1,10,12,10,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D24,Flexible,1,10,12,10,6.0,6.0,0,0,True,12.0,12.0,Hold
-D07,Flexible,1,9,16,9,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D21,Flexible,1,10,14,10,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D28,Flexible,1,13,16,13,6.0,6.0,0,1,True,14.0,14.0,Fee_aware
-D16,Flexible,2,1,4,1,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D39,Flexible,2,0,8,0,6.0,6.0,0,2,True,16.0,16.0,Hold
-D18,Flexible,2,1,6,1,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D28,Flexible,2,2,5,2,9.0,9.0,0,0,True,18.0,18.0,Fee_aware
-D05,Flexible,2,2,16,2,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D32,Flexible,2,5,11,5,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D02,Flexible,2,6,12,6,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D19,Flexible,2,7,13,7,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D07,Flexible,2,8,15,8,6.0,6.0,0,2,True,16.0,16.0,Fee_aware
-D04,Flexible,2,11,13,11,3.0,3.0,0,1,True,8.0,8.0,Hold
-D15,Flexible,2,12,14,12,3.0,3.0,0,1,True,8.0,8.0,Hold
-D14,Urgent,2,12,16,12,9.0,9.0,0,1,True,28.0,28.0,Hold
-D38,Flexible,3,0,10,0,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D32,Flexible,3,0,15,0,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D24,Flexible,3,2,5,2,9.0,9.0,0,0,True,18.0,18.0,Hold
-D29,Flexible,3,0,8,0,9.0,9.0,0,2,True,22.0,22.0,Fee_aware
-D01,Urgent,3,6,9,6,3.0,3.0,0,0,True,9.0,9.0,Reciprocal
-D16,Flexible,3,7,16,7,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D03,Urgent,3,4,9,4,9.0,9.0,0,2,True,29.0,29.0,Hold
-D18,Flexible,3,9,15,9,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D27,Flexible,3,9,13,9,6.0,6.0,0,2,True,16.0,16.0,Fee_aware
-D36,Flexible,3,11,15,11,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D13,Flexible,3,12,15,12,6.0,6.0,0,1,True,14.0,14.0,Hold
-D26,Flexible,3,13,15,13,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D01,Urgent,4,1,7,1,3.0,3.0,0,0,True,9.0,9.0,Reciprocal
-D14,Urgent,4,1,3,1,6.0,6.0,0,0,True,18.0,18.0,Hold
-D23,Flexible,4,1,4,1,9.0,9.0,0,0,True,18.0,18.0,Fee_aware
-D03,Urgent,4,2,16,2,6.0,6.0,0,2,True,20.0,20.0,Hold
-D38,Flexible,4,4,13,4,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D00,Flexible,4,6,15,6,3.0,3.0,0,0,True,6.0,6.0,Release
-D12,Flexible,4,4,11,4,6.0,6.0,0,2,True,16.0,16.0,Hold
-D04,Flexible,4,6,11,6,9.0,9.0,0,2,True,22.0,22.0,Hold
-D31,Flexible,4,12,14,12,6.0,6.0,0,0,True,12.0,12.0,Hold
-D18,Flexible,4,12,15,12,6.0,6.0,0,1,True,14.0,14.0,Fee_aware
-D19,Flexible,4,13,16,13,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D11,Flexible,4,13,16,13,9.0,9.0,0,0,True,18.0,18.0,Fee_aware
-D26,Flexible,5,1,12,1,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D14,Urgent,5,1,15,1,3.0,3.0,0,2,True,11.0,11.0,Hold
-D22,Urgent,5,1,5,1,9.0,9.0,0,1,True,28.0,28.0,Fee_aware
-D38,Flexible,5,4,12,4,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D25,Flexible,5,2,16,2,6.0,6.0,0,2,True,16.0,16.0,Fee_aware
-D27,Flexible,5,2,12,2,6.0,6.0,0,2,True,16.0,16.0,Fee_aware
-D30,Flexible,5,5,15,5,3.0,3.0,0,2,True,10.0,10.0,Hold
-D18,Flexible,5,5,9,5,9.0,9.0,0,1,True,20.0,20.0,Fee_aware
-D10,Flexible,5,10,12,10,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D16,Flexible,5,11,15,11,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D21,Flexible,5,12,15,12,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D31,Flexible,5,13,15,13,3.0,3.0,0,1,True,8.0,8.0,Hold
-D32,Flexible,6,0,14,0,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D30,Flexible,6,0,7,0,6.0,6.0,0,2,True,16.0,16.0,Hold
-D37,Flexible,6,4,12,4,6.0,6.0,0,0,True,12.0,12.0,Release
-D16,Flexible,6,6,10,6,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D09,Flexible,6,8,14,8,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D10,Flexible,6,8,10,8,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D14,Urgent,6,6,14,6,9.0,9.0,0,2,True,29.0,29.0,Hold
-D25,Flexible,6,8,12,8,9.0,9.0,0,1,True,20.0,20.0,Fee_aware
-D23,Flexible,6,8,15,8,6.0,6.0,0,2,True,16.0,16.0,Fee_aware
-D22,Urgent,6,11,13,11,3.0,3.0,0,1,True,10.0,10.0,Fee_aware
-D15,Flexible,6,10,15,10,6.0,6.0,0,2,True,16.0,16.0,Hold
-D29,Flexible,6,11,16,11,9.0,9.0,0,2,True,22.0,22.0,Fee_aware
-D25,Flexible,7,0,11,0,9.0,9.0,0,2,True,22.0,22.0,Fee_aware
-D38,Flexible,7,5,7,5,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D31,Flexible,7,4,14,4,6.0,6.0,0,2,True,16.0,16.0,Hold
-D13,Flexible,7,6,15,6,6.0,6.0,0,2,True,16.0,16.0,Hold
-D35,Flexible,7,7,12,7,3.0,3.0,0,2,True,10.0,10.0,Hold
-D24,Flexible,7,8,14,8,3.0,3.0,0,2,True,10.0,10.0,Hold
-D26,Flexible,7,10,12,10,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D06,Flexible,7,11,14,11,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D01,Urgent,7,12,16,12,3.0,3.0,0,0,True,9.0,9.0,Reciprocal
-D34,Flexible,7,8,16,8,9.0,9.0,0,2,True,22.0,22.0,Fee_aware
-D17,Flexible,7,10,14,10,6.0,6.0,0,2,True,16.0,16.0,Hold
-D11,Flexible,7,12,14,12,6.0,6.0,0,0,True,12.0,12.0,Fee_aware
-D11,Flexible,8,0,10,0,6.0,6.0,0,2,True,16.0,16.0,Fee_aware
-D05,Flexible,8,0,6,0,9.0,9.0,0,2,True,22.0,22.0,Fee_aware
-D10,Flexible,8,4,11,4,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D22,Urgent,8,7,9,7,6.0,6.0,0,0,True,18.0,18.0,Fee_aware
-D15,Flexible,8,5,11,5,9.0,9.0,0,2,True,22.0,22.0,Hold
-D01,Urgent,8,10,14,10,3.0,3.0,0,0,True,9.0,9.0,Reciprocal
-D08,Flexible,8,10,13,10,6.0,6.0,0,0,True,12.0,12.0,Release
-D25,Flexible,8,9,14,9,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D03,Urgent,8,11,15,11,3.0,3.0,0,2,True,11.0,11.0,Hold
-D12,Flexible,8,10,15,10,9.0,9.0,0,2,True,22.0,22.0,Hold
-D14,Urgent,8,13,15,13,3.0,3.0,0,1,True,10.0,10.0,Hold
-D16,Flexible,8,13,16,13,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D38,Flexible,9,0,3,0,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D32,Flexible,9,1,8,1,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D02,Flexible,9,2,15,2,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D09,Flexible,9,3,10,3,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D31,Flexible,9,3,12,3,3.0,3.0,0,2,True,10.0,10.0,Hold
-D25,Flexible,9,3,13,3,6.0,6.0,0,2,True,16.0,16.0,Fee_aware
-D30,Flexible,9,5,9,5,3.0,3.0,0,2,True,10.0,10.0,Hold
-D05,Flexible,9,5,9,5,6.0,6.0,0,2,True,16.0,16.0,Fee_aware
-D19,Flexible,9,7,13,7,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D14,Urgent,9,10,13,10,6.0,6.0,0,1,True,19.0,19.0,Hold
-D33,Flexible,9,10,15,10,6.0,6.0,0,2,True,16.0,16.0,Fee_aware
-D17,Flexible,9,12,16,12,6.0,6.0,0,2,True,16.0,16.0,Hold
-D36,Flexible,10,0,3,0,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D14,Urgent,10,1,8,1,6.0,6.0,0,2,True,20.0,20.0,Hold
-D28,Flexible,10,2,9,2,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D24,Flexible,10,4,11,4,6.0,6.0,0,2,True,16.0,16.0,Hold
-D21,Flexible,10,5,13,5,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D08,Flexible,10,6,12,6,9.0,9.0,0,0,True,18.0,18.0,Release
-D17,Flexible,10,6,15,6,3.0,3.0,0,2,True,10.0,10.0,Hold
-D25,Flexible,10,7,10,7,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D37,Flexible,10,9,16,9,9.0,9.0,0,0,True,18.0,18.0,Release
-D11,Flexible,10,9,15,9,9.0,9.0,0,2,True,22.0,22.0,Fee_aware
-D23,Flexible,10,11,16,11,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D22,Urgent,10,11,15,11,9.0,9.0,0,1,True,28.0,28.0,Fee_aware
-D24,Flexible,11,1,8,1,3.0,3.0,0,2,True,10.0,10.0,Hold
-D34,Flexible,11,1,5,1,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D20,Flexible,11,5,11,5,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D39,Flexible,11,3,16,3,3.0,3.0,0,2,True,10.0,10.0,Hold
-D06,Flexible,11,5,15,5,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D10,Flexible,11,7,13,7,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D30,Flexible,11,5,16,5,3.0,3.0,0,2,True,10.0,10.0,Hold
-D15,Flexible,11,6,13,6,6.0,6.0,0,2,True,16.0,16.0,Hold
-D18,Flexible,11,11,13,11,6.0,6.0,0,0,True,12.0,12.0,Fee_aware
-D09,Flexible,11,13,15,13,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D23,Flexible,11,13,15,13,6.0,6.0,0,0,True,12.0,12.0,Fee_aware
-D37,Flexible,11,13,15,13,6.0,6.0,0,0,True,12.0,12.0,Release
-D16,Flexible,12,2,10,2,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D05,Flexible,12,1,13,1,6.0,6.0,0,2,True,16.0,16.0,Fee_aware
-D31,Flexible,12,1,9,1,6.0,6.0,0,2,True,16.0,16.0,Hold
-D17,Flexible,12,1,8,1,9.0,9.0,0,2,True,22.0,22.0,Hold
-D18,Flexible,12,3,7,3,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D38,Flexible,12,7,11,7,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D03,Urgent,12,7,9,7,3.0,3.0,0,1,True,10.0,10.0,Hold
-D20,Flexible,12,7,9,7,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D14,Urgent,12,6,14,6,9.0,9.0,0,2,True,29.0,29.0,Hold
-D30,Flexible,12,10,16,10,3.0,3.0,0,2,True,10.0,10.0,Hold
-D39,Flexible,12,10,15,10,6.0,6.0,0,2,True,16.0,16.0,Hold
-D25,Flexible,12,13,16,13,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D29,Flexible,13,0,2,0,3.0,3.0,0,1,True,8.0,8.0,Fee_aware
-D37,Flexible,13,1,6,1,3.0,3.0,0,0,True,6.0,6.0,Release
-D04,Flexible,13,0,4,0,9.0,9.0,0,1,True,20.0,20.0,Hold
-D17,Flexible,13,2,12,2,3.0,3.0,0,2,True,10.0,10.0,Hold
-D15,Flexible,13,2,9,2,6.0,6.0,0,2,True,16.0,16.0,Hold
-D08,Flexible,13,7,12,7,3.0,3.0,0,0,True,6.0,6.0,Release
-D03,Urgent,13,8,10,8,6.0,6.0,0,0,True,18.0,18.0,Hold
-D16,Flexible,13,8,14,8,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D33,Flexible,13,6,13,6,9.0,9.0,0,2,True,22.0,22.0,Fee_aware
-D01,Urgent,13,9,12,9,9.0,9.0,0,0,True,27.0,27.0,Reciprocal
-D30,Flexible,13,10,16,10,3.0,3.0,0,2,True,10.0,10.0,Hold
-D22,Urgent,13,10,15,10,9.0,9.0,0,2,True,29.0,29.0,Fee_aware
-D19,Flexible,14,2,15,2,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D09,Flexible,14,5,11,5,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D39,Flexible,14,3,8,3,6.0,6.0,0,2,True,16.0,16.0,Hold
-D12,Flexible,14,3,11,3,9.0,9.0,0,2,True,22.0,22.0,Hold
-D11,Flexible,14,4,10,4,9.0,9.0,0,2,True,22.0,22.0,Fee_aware
-D13,Flexible,14,8,10,8,6.0,6.0,0,0,True,12.0,12.0,Hold
-D38,Flexible,14,9,11,9,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D21,Flexible,14,10,12,10,3.0,3.0,0,1,True,8.0,8.0,Fee_aware
-D04,Flexible,14,10,12,10,6.0,6.0,0,0,True,12.0,12.0,Hold
-D27,Flexible,14,9,15,9,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D24,Flexible,14,12,15,12,6.0,6.0,0,1,True,14.0,14.0,Hold
-D35,Flexible,14,11,16,11,9.0,9.0,0,2,True,22.0,22.0,Hold
-D06,Flexible,15,4,16,4,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D21,Flexible,15,3,11,3,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D11,Flexible,15,3,11,3,6.0,6.0,0,2,True,16.0,16.0,Fee_aware
-D14,Urgent,15,4,9,4,3.0,3.0,0,2,True,11.0,11.0,Hold
-D12,Flexible,15,6,8,6,6.0,6.0,0,0,True,12.0,12.0,Hold
-D24,Flexible,15,4,14,4,9.0,9.0,0,2,True,22.0,22.0,Hold
-D02,Flexible,15,9,11,9,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D08,Flexible,15,10,14,10,3.0,3.0,0,0,True,6.0,6.0,Release
-D35,Flexible,15,6,16,6,9.0,9.0,0,2,True,22.0,22.0,Hold
-D03,Urgent,15,13,16,13,9.0,9.0,0,0,True,27.0,27.0,Hold
-D09,Flexible,15,13,16,13,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D20,Flexible,15,13,16,13,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D12,Flexible,16,1,3,1,3.0,3.0,0,1,True,8.0,8.0,Hold
-D28,Flexible,16,1,5,1,6.0,6.0,0,2,True,16.0,16.0,Fee_aware
-D34,Flexible,16,3,10,3,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D22,Urgent,16,3,14,3,9.0,9.0,0,2,True,29.0,29.0,Fee_aware
-D35,Flexible,16,5,14,5,3.0,3.0,0,2,True,10.0,10.0,Hold
-D10,Flexible,16,7,14,7,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D14,Urgent,16,5,15,5,6.0,6.0,0,2,True,20.0,20.0,Hold
-D16,Flexible,16,8,16,8,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D29,Flexible,16,9,16,9,6.0,6.0,0,2,True,16.0,16.0,Fee_aware
-D24,Flexible,16,10,16,10,3.0,3.0,0,2,True,10.0,10.0,Hold
-D30,Flexible,16,10,14,10,3.0,3.0,0,2,True,10.0,10.0,Hold
-D06,Flexible,16,12,16,12,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D23,Flexible,17,0,6,0,9.0,9.0,0,2,True,22.0,22.0,Fee_aware
-D02,Flexible,17,3,7,3,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D08,Flexible,17,3,14,3,9.0,9.0,0,0,True,18.0,18.0,Release
-D01,Urgent,17,7,12,7,3.0,3.0,0,0,True,9.0,9.0,Reciprocal
-D10,Flexible,17,8,13,8,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D09,Flexible,17,9,16,9,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D26,Flexible,17,9,14,9,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D30,Flexible,17,10,12,10,6.0,6.0,0,0,True,12.0,12.0,Hold
-D18,Flexible,17,9,13,9,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D24,Flexible,17,10,13,10,9.0,9.0,0,0,True,18.0,18.0,Hold
-D20,Flexible,17,11,16,11,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D13,Flexible,17,13,16,13,9.0,9.0,0,0,True,18.0,18.0,Hold
-D25,Flexible,18,0,2,0,6.0,6.0,0,0,True,12.0,12.0,Fee_aware
-D39,Flexible,18,0,2,0,6.0,6.0,0,0,True,12.0,12.0,Hold
-D01,Urgent,18,0,4,0,9.0,9.0,0,0,True,27.0,27.0,Reciprocal
-D24,Flexible,18,1,8,1,9.0,9.0,0,2,True,22.0,22.0,Hold
-D17,Flexible,18,2,7,2,6.0,6.0,0,2,True,16.0,16.0,Hold
-D30,Flexible,18,3,13,3,6.0,6.0,0,2,True,16.0,16.0,Hold
-D18,Flexible,18,5,15,5,6.0,6.0,0,2,True,16.0,16.0,Fee_aware
-D13,Flexible,18,9,11,9,6.0,6.0,0,0,True,12.0,12.0,Hold
-D07,Flexible,18,8,16,8,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D37,Flexible,18,11,16,11,6.0,6.0,0,0,True,12.0,12.0,Release
-D15,Flexible,18,11,14,11,6.0,6.0,0,1,True,14.0,14.0,Hold
-D29,Flexible,18,9,15,9,9.0,9.0,0,2,True,22.0,22.0,Fee_aware
-D08,Flexible,19,2,4,2,3.0,3.0,0,0,True,6.0,6.0,Release
-D22,Urgent,19,0,7,0,9.0,9.0,0,2,True,29.0,29.0,Fee_aware
-D18,Flexible,19,1,12,1,6.0,6.0,0,2,True,16.0,16.0,Fee_aware
-D06,Flexible,19,5,11,5,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D34,Flexible,19,4,13,4,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D05,Flexible,19,4,14,4,9.0,9.0,0,2,True,22.0,22.0,Fee_aware
-D15,Flexible,19,4,14,4,9.0,9.0,0,2,True,22.0,22.0,Hold
-D27,Flexible,19,5,13,5,9.0,9.0,0,2,True,22.0,22.0,Fee_aware
-D04,Flexible,19,8,15,8,3.0,3.0,0,2,True,10.0,10.0,Hold
-D03,Urgent,19,8,12,8,6.0,6.0,0,2,True,20.0,20.0,Hold
-D09,Flexible,19,10,12,10,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D01,Urgent,19,13,15,13,6.0,6.0,0,0,True,18.0,18.0,Reciprocal
-D02,Flexible,20,1,3,1,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D36,Flexible,20,0,10,0,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D01,Urgent,20,1,11,1,6.0,6.0,0,0,True,18.0,18.0,Reciprocal
-D10,Flexible,20,3,13,3,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D15,Flexible,20,1,8,1,3.0,3.0,0,2,True,10.0,10.0,Hold
-D28,Flexible,20,6,10,6,6.0,6.0,0,2,True,16.0,16.0,Fee_aware
-D09,Flexible,20,8,13,8,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D11,Flexible,20,9,11,9,3.0,3.0,0,1,True,8.0,8.0,Fee_aware
-D26,Flexible,20,9,12,9,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D22,Urgent,20,9,16,9,3.0,3.0,0,2,True,11.0,11.0,Fee_aware
-D00,Flexible,20,12,14,12,3.0,3.0,0,0,True,6.0,6.0,Release
-D27,Flexible,20,13,15,13,3.0,3.0,0,1,True,8.0,8.0,Fee_aware
-D36,Flexible,21,2,6,2,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D03,Urgent,21,0,6,0,9.0,9.0,0,2,True,29.0,29.0,Hold
-D19,Flexible,21,4,6,4,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D11,Flexible,21,6,12,6,6.0,6.0,0,2,True,16.0,16.0,Fee_aware
-D28,Flexible,21,6,14,6,6.0,6.0,0,2,True,16.0,16.0,Fee_aware
-D33,Flexible,21,7,16,7,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D04,Flexible,21,9,13,9,9.0,9.0,0,1,True,20.0,20.0,Hold
-D27,Flexible,21,12,14,12,6.0,6.0,0,0,True,12.0,12.0,Fee_aware
-D15,Flexible,21,13,15,13,6.0,6.0,0,0,True,12.0,12.0,Hold
-D34,Flexible,21,12,16,12,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D23,Flexible,21,13,16,13,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D10,Flexible,21,13,16,13,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D09,Flexible,22,2,10,2,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D10,Flexible,22,5,9,5,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D14,Urgent,22,3,15,3,9.0,9.0,0,2,True,29.0,29.0,Hold
-D17,Flexible,22,5,13,5,3.0,3.0,0,2,True,10.0,10.0,Hold
-D37,Flexible,22,6,15,6,9.0,9.0,0,0,True,18.0,18.0,Release
-D24,Flexible,22,7,11,7,6.0,6.0,0,2,True,16.0,16.0,Hold
-D15,Flexible,22,8,15,8,3.0,3.0,0,2,True,10.0,10.0,Hold
-D23,Flexible,22,8,13,8,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D36,Flexible,22,9,16,9,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D38,Flexible,22,11,15,11,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D29,Flexible,22,11,16,11,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D33,Flexible,22,11,16,11,6.0,6.0,0,2,True,16.0,16.0,Fee_aware
-D20,Flexible,23,0,15,0,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D00,Flexible,23,1,12,1,3.0,3.0,0,0,True,6.0,6.0,Release
-D37,Flexible,23,5,7,5,6.0,6.0,0,0,True,12.0,12.0,Release
-D06,Flexible,23,5,13,5,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D36,Flexible,23,5,16,5,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D38,Flexible,23,6,11,6,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D16,Flexible,23,7,10,7,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D18,Flexible,23,7,11,7,9.0,9.0,0,1,True,20.0,20.0,Fee_aware
-D01,Urgent,23,11,13,11,3.0,3.0,0,0,True,9.0,9.0,Reciprocal
-D19,Flexible,23,11,15,11,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D39,Flexible,23,8,14,8,6.0,6.0,0,2,True,16.0,16.0,Hold
-D25,Flexible,23,11,16,11,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D09,Flexible,24,3,13,3,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D24,Flexible,24,0,8,0,6.0,6.0,0,2,True,16.0,16.0,Hold
-D36,Flexible,24,5,10,5,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D14,Urgent,24,3,13,3,9.0,9.0,0,2,True,29.0,29.0,Hold
-D10,Flexible,24,9,14,9,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D39,Flexible,24,6,15,6,6.0,6.0,0,2,True,16.0,16.0,Hold
-D30,Flexible,24,8,11,8,9.0,9.0,0,0,True,18.0,18.0,Hold
-D21,Flexible,24,6,12,6,9.0,9.0,0,2,True,22.0,22.0,Fee_aware
-D20,Flexible,24,11,14,11,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D00,Flexible,24,12,15,12,3.0,3.0,0,0,True,6.0,6.0,Release
-D26,Flexible,24,11,15,11,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D13,Flexible,24,13,16,13,3.0,3.0,0,2,True,10.0,10.0,Hold
-D00,Flexible,25,0,11,0,6.0,6.0,0,0,True,12.0,12.0,Release
-D02,Flexible,25,1,15,1,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D13,Flexible,25,1,10,1,3.0,3.0,0,2,True,10.0,10.0,Hold
-D19,Flexible,25,2,11,2,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D33,Flexible,25,2,16,2,6.0,6.0,0,2,True,16.0,16.0,Fee_aware
-D31,Flexible,25,5,8,5,6.0,6.0,0,1,True,14.0,14.0,Hold
-D39,Flexible,25,6,8,6,3.0,3.0,0,1,True,8.0,8.0,Hold
-D08,Flexible,25,7,15,7,3.0,3.0,0,0,True,6.0,6.0,Release
-D35,Flexible,25,10,12,10,6.0,6.0,0,0,True,12.0,12.0,Hold
-D12,Flexible,25,11,14,11,6.0,6.0,0,1,True,14.0,14.0,Hold
-D14,Urgent,25,11,15,11,6.0,6.0,0,2,True,20.0,20.0,Hold
-D11,Flexible,25,12,16,12,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D26,Flexible,26,2,7,2,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D11,Flexible,26,1,8,1,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D38,Flexible,26,3,14,3,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D08,Flexible,26,5,8,5,6.0,6.0,0,0,True,12.0,12.0,Release
-D29,Flexible,26,2,10,2,9.0,9.0,0,2,True,22.0,22.0,Fee_aware
-D35,Flexible,26,7,9,7,3.0,3.0,0,1,True,8.0,8.0,Hold
-D19,Flexible,26,8,16,8,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D14,Urgent,26,9,12,9,6.0,6.0,0,1,True,19.0,19.0,Hold
-D04,Flexible,26,10,12,10,3.0,3.0,0,1,True,8.0,8.0,Hold
-D06,Flexible,26,11,14,11,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D13,Flexible,26,10,14,10,9.0,9.0,0,1,True,20.0,20.0,Hold
-D01,Urgent,26,13,15,13,6.0,6.0,0,0,True,18.0,18.0,Reciprocal
-D01,Urgent,27,1,13,1,3.0,3.0,0,0,True,9.0,9.0,Reciprocal
-D36,Flexible,27,2,14,2,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D08,Flexible,27,3,14,3,9.0,9.0,0,0,True,18.0,18.0,Release
-D09,Flexible,27,5,9,5,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D11,Flexible,27,3,11,3,9.0,9.0,0,2,True,22.0,22.0,Fee_aware
-D03,Urgent,27,8,11,8,3.0,3.0,0,2,True,11.0,11.0,Hold
-D35,Flexible,27,7,13,7,6.0,6.0,0,2,True,16.0,16.0,Hold
-D38,Flexible,27,11,13,11,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D13,Flexible,27,12,15,12,3.0,3.0,0,2,True,10.0,10.0,Hold
-D21,Flexible,27,13,15,13,3.0,3.0,0,1,True,8.0,8.0,Fee_aware
-D31,Flexible,27,12,16,12,3.0,3.0,0,2,True,10.0,10.0,Hold
-D04,Flexible,27,12,16,12,9.0,9.0,0,1,True,20.0,20.0,Hold
-D38,Flexible,28,1,8,1,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D12,Flexible,28,0,7,0,3.0,3.0,0,2,True,10.0,10.0,Hold
-D31,Flexible,28,1,4,1,9.0,9.0,0,0,True,18.0,18.0,Hold
-D02,Flexible,28,2,10,2,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D07,Flexible,28,2,12,2,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D21,Flexible,28,3,15,3,6.0,6.0,0,2,True,16.0,16.0,Fee_aware
-D39,Flexible,28,3,15,3,6.0,6.0,0,2,True,16.0,16.0,Hold
-D11,Flexible,28,11,13,11,6.0,6.0,0,0,True,12.0,12.0,Fee_aware
-D27,Flexible,28,9,15,9,9.0,9.0,0,2,True,22.0,22.0,Fee_aware
-D04,Flexible,28,10,15,10,6.0,6.0,0,2,True,16.0,16.0,Hold
-D35,Flexible,28,13,15,13,3.0,3.0,0,1,True,8.0,8.0,Hold
-D22,Urgent,28,10,16,10,9.0,9.0,0,2,True,29.0,29.0,Fee_aware
-D16,Flexible,29,0,3,0,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D22,Urgent,29,0,13,0,3.0,3.0,0,2,True,11.0,11.0,Fee_aware
-D36,Flexible,29,2,5,2,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D25,Flexible,29,2,6,2,9.0,9.0,0,1,True,20.0,20.0,Fee_aware
-D38,Flexible,29,4,10,4,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D21,Flexible,29,6,8,6,3.0,3.0,0,1,True,8.0,8.0,Fee_aware
-D07,Flexible,29,4,12,4,6.0,6.0,0,2,True,16.0,16.0,Fee_aware
-D04,Flexible,29,9,12,9,9.0,9.0,0,0,True,18.0,18.0,Hold
-D37,Flexible,29,13,15,13,3.0,3.0,0,0,True,6.0,6.0,Release
-D27,Flexible,29,12,15,12,6.0,6.0,0,1,True,14.0,14.0,Fee_aware
-D01,Urgent,29,13,15,13,6.0,6.0,0,0,True,18.0,18.0,Reciprocal
-D15,Flexible,29,13,15,13,3.0,3.0,0,1,True,8.0,8.0,Hold
-D26,Flexible,30,1,12,1,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D25,Flexible,30,3,10,3,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D35,Flexible,30,3,13,3,6.0,6.0,0,2,True,16.0,16.0,Hold
-D19,Flexible,30,6,12,6,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D20,Flexible,30,6,10,6,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D31,Flexible,30,4,12,4,9.0,9.0,0,2,True,22.0,22.0,Hold
-D30,Flexible,30,7,10,7,9.0,9.0,0,0,True,18.0,18.0,Hold
-D39,Flexible,30,7,15,7,9.0,9.0,0,2,True,22.0,22.0,Hold
-D24,Flexible,30,8,13,8,9.0,9.0,0,2,True,22.0,22.0,Hold
-D18,Flexible,30,10,14,10,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D05,Flexible,30,11,14,11,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D36,Flexible,30,11,15,11,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D28,Flexible,31,0,2,0,6.0,6.0,0,0,True,12.0,12.0,Fee_aware
-D11,Flexible,31,0,12,0,9.0,9.0,0,2,True,22.0,22.0,Fee_aware
-D29,Flexible,31,3,7,3,9.0,9.0,0,1,True,20.0,20.0,Fee_aware
-D09,Flexible,31,6,11,6,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D25,Flexible,31,3,13,3,6.0,6.0,0,2,True,16.0,16.0,Fee_aware
-D05,Flexible,31,4,14,4,6.0,6.0,0,2,True,16.0,16.0,Fee_aware
-D10,Flexible,31,8,10,8,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D04,Flexible,31,8,10,8,6.0,6.0,0,0,True,12.0,12.0,Hold
-D19,Flexible,31,8,16,8,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D07,Flexible,31,6,16,6,9.0,9.0,0,2,True,22.0,22.0,Fee_aware
-D32,Flexible,31,9,12,9,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D23,Flexible,31,9,13,9,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D08,Flexible,32,0,7,0,3.0,3.0,0,0,True,6.0,6.0,Release
-D29,Flexible,32,0,8,0,9.0,9.0,0,2,True,22.0,22.0,Fee_aware
-D02,Flexible,32,4,6,4,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D21,Flexible,32,3,7,3,6.0,6.0,0,2,True,16.0,16.0,Fee_aware
-D13,Flexible,32,6,9,6,9.0,9.0,0,0,True,18.0,18.0,Hold
-D18,Flexible,32,4,16,4,9.0,9.0,0,2,True,22.0,22.0,Fee_aware
-D28,Flexible,32,6,12,6,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D23,Flexible,32,9,12,9,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D14,Urgent,32,7,15,7,9.0,9.0,0,2,True,29.0,29.0,Hold
-D03,Urgent,32,10,13,10,3.0,3.0,0,2,True,11.0,11.0,Hold
-D11,Flexible,32,11,16,11,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D31,Flexible,32,10,16,10,9.0,9.0,0,2,True,22.0,22.0,Hold
-D00,Flexible,33,0,5,0,3.0,3.0,0,0,True,6.0,6.0,Release
-D32,Flexible,33,3,14,3,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D34,Flexible,33,0,5,0,9.0,9.0,0,2,True,22.0,22.0,Fee_aware
-D35,Flexible,33,3,15,3,3.0,3.0,0,2,True,10.0,10.0,Hold
-D39,Flexible,33,4,7,4,3.0,3.0,0,2,True,10.0,10.0,Hold
-D04,Flexible,33,2,13,2,9.0,9.0,0,2,True,22.0,22.0,Hold
-D06,Flexible,33,6,10,6,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D21,Flexible,33,5,11,5,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D13,Flexible,33,6,16,6,3.0,3.0,0,2,True,10.0,10.0,Hold
-D01,Urgent,33,9,13,9,3.0,3.0,0,0,True,9.0,9.0,Reciprocal
-D09,Flexible,33,9,11,9,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D37,Flexible,33,10,16,10,3.0,3.0,0,0,True,6.0,6.0,Release
-D15,Flexible,34,0,3,0,3.0,3.0,0,2,True,10.0,10.0,Hold
-D08,Flexible,34,1,10,1,9.0,9.0,0,0,True,18.0,18.0,Release
-D13,Flexible,34,0,14,0,6.0,6.0,0,2,True,16.0,16.0,Hold
-D07,Flexible,34,1,8,1,6.0,6.0,0,2,True,16.0,16.0,Fee_aware
-D12,Flexible,34,3,11,3,6.0,6.0,0,2,True,16.0,16.0,Hold
-D21,Flexible,34,5,11,5,9.0,9.0,0,2,True,22.0,22.0,Fee_aware
-D37,Flexible,34,11,14,11,3.0,3.0,0,0,True,6.0,6.0,Release
-D25,Flexible,34,9,13,9,6.0,6.0,0,2,True,16.0,16.0,Fee_aware
-D35,Flexible,34,10,13,10,9.0,9.0,0,0,True,18.0,18.0,Hold
-D39,Flexible,34,9,14,9,9.0,9.0,0,2,True,22.0,22.0,Hold
-D05,Flexible,34,12,15,12,9.0,9.0,0,0,True,18.0,18.0,Fee_aware
-D18,Flexible,34,13,16,13,9.0,9.0,0,0,True,18.0,18.0,Fee_aware
-D19,Flexible,35,1,6,1,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D27,Flexible,35,0,4,0,6.0,6.0,0,2,True,16.0,16.0,Fee_aware
-D33,Flexible,35,0,14,0,6.0,6.0,0,2,True,16.0,16.0,Fee_aware
-D06,Flexible,35,3,12,3,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D08,Flexible,35,6,10,6,3.0,3.0,0,0,True,6.0,6.0,Release
-D14,Urgent,35,5,12,5,6.0,6.0,0,2,True,20.0,20.0,Hold
-D11,Flexible,35,6,11,6,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D15,Flexible,35,8,16,8,3.0,3.0,0,2,True,10.0,10.0,Hold
-D34,Flexible,35,8,15,8,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D04,Flexible,35,9,13,9,6.0,6.0,0,2,True,16.0,16.0,Hold
-D05,Flexible,35,11,13,11,3.0,3.0,0,1,True,8.0,8.0,Fee_aware
-D29,Flexible,35,12,15,12,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D18,Flexible,36,0,16,0,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D26,Flexible,36,1,5,1,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D04,Flexible,36,2,5,2,3.0,3.0,0,2,True,10.0,10.0,Hold
-D34,Flexible,36,3,16,3,9.0,9.0,0,2,True,22.0,22.0,Fee_aware
-D30,Flexible,36,7,9,7,3.0,3.0,0,1,True,8.0,8.0,Hold
-D13,Flexible,36,6,16,6,3.0,3.0,0,2,True,10.0,10.0,Hold
-D07,Flexible,36,8,12,8,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D29,Flexible,36,10,12,10,6.0,6.0,0,0,True,12.0,12.0,Fee_aware
-D24,Flexible,36,12,14,12,6.0,6.0,0,0,True,12.0,12.0,Hold
-D01,Urgent,36,11,15,11,9.0,9.0,0,0,True,27.0,27.0,Reciprocal
-D02,Flexible,36,13,15,13,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D15,Flexible,36,12,16,12,3.0,3.0,0,2,True,10.0,10.0,Hold
-D05,Flexible,37,0,8,0,6.0,6.0,0,2,True,16.0,16.0,Fee_aware
-D07,Flexible,37,1,10,1,6.0,6.0,0,2,True,16.0,16.0,Fee_aware
-D04,Flexible,37,2,9,2,6.0,6.0,0,2,True,16.0,16.0,Hold
-D15,Flexible,37,3,14,3,3.0,3.0,0,2,True,10.0,10.0,Hold
-D17,Flexible,37,3,12,3,6.0,6.0,0,2,True,16.0,16.0,Hold
-D21,Flexible,37,4,15,4,9.0,9.0,0,2,True,22.0,22.0,Fee_aware
-D27,Flexible,37,6,16,6,9.0,9.0,0,2,True,22.0,22.0,Fee_aware
-D10,Flexible,37,10,14,10,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D13,Flexible,37,11,14,11,9.0,9.0,0,0,True,18.0,18.0,Hold
-D08,Flexible,37,12,14,12,6.0,6.0,0,0,True,12.0,12.0,Release
-D12,Flexible,37,13,15,13,6.0,6.0,0,0,True,12.0,12.0,Hold
-D14,Urgent,37,13,16,13,3.0,3.0,0,2,True,11.0,11.0,Hold
-D19,Flexible,38,3,5,3,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D03,Urgent,38,3,5,3,3.0,3.0,0,1,True,10.0,10.0,Hold
-D17,Flexible,38,0,6,0,9.0,9.0,0,2,True,22.0,22.0,Hold
-D27,Flexible,38,1,9,1,6.0,6.0,0,2,True,16.0,16.0,Fee_aware
-D15,Flexible,38,2,11,2,6.0,6.0,0,2,True,16.0,16.0,Hold
-D28,Flexible,38,6,8,6,3.0,3.0,0,1,True,8.0,8.0,Fee_aware
-D26,Flexible,38,8,16,8,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D33,Flexible,38,8,14,8,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D10,Flexible,38,10,12,10,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D18,Flexible,38,11,13,11,3.0,3.0,0,1,True,8.0,8.0,Fee_aware
-D07,Flexible,38,11,14,11,6.0,6.0,0,1,True,14.0,14.0,Fee_aware
-D24,Flexible,38,12,15,12,3.0,3.0,0,2,True,10.0,10.0,Hold
-D01,Urgent,39,0,7,0,9.0,9.0,0,0,True,27.0,27.0,Reciprocal
-D13,Flexible,39,3,11,3,3.0,3.0,0,2,True,10.0,10.0,Hold
-D31,Flexible,39,4,15,4,3.0,3.0,0,2,True,10.0,10.0,Hold
-D16,Flexible,39,9,12,9,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D38,Flexible,39,9,15,9,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D19,Flexible,39,10,15,10,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D30,Flexible,39,7,16,7,9.0,9.0,0,2,True,22.0,22.0,Hold
-D27,Flexible,39,10,13,10,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D28,Flexible,39,11,13,11,3.0,3.0,0,1,True,8.0,8.0,Fee_aware
-D02,Flexible,39,12,14,12,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D14,Urgent,39,9,16,9,9.0,9.0,0,2,True,29.0,29.0,Hold
-D33,Flexible,39,13,15,13,3.0,3.0,0,1,True,8.0,8.0,Fee_aware
-D36,Flexible,40,1,7,1,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D03,Urgent,40,1,8,1,3.0,3.0,0,2,True,11.0,11.0,Hold
-D21,Flexible,40,2,15,2,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D38,Flexible,40,6,14,6,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D00,Flexible,40,8,10,8,3.0,3.0,0,0,True,6.0,6.0,Release
-D37,Flexible,40,7,15,7,9.0,9.0,0,0,True,18.0,18.0,Release
-D12,Flexible,40,5,14,5,9.0,9.0,0,2,True,22.0,22.0,Hold
-D20,Flexible,40,9,16,9,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D13,Flexible,40,8,14,8,3.0,3.0,0,2,True,10.0,10.0,Hold
-D24,Flexible,40,11,13,11,6.0,6.0,0,0,True,12.0,12.0,Hold
-D23,Flexible,40,10,14,10,6.0,6.0,0,2,True,16.0,16.0,Fee_aware
-D34,Flexible,40,11,14,11,6.0,6.0,0,1,True,14.0,14.0,Fee_aware
-D26,Flexible,41,5,11,5,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D29,Flexible,41,3,8,3,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D17,Flexible,41,5,7,5,3.0,3.0,0,1,True,8.0,8.0,Hold
-D16,Flexible,41,4,13,4,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D10,Flexible,41,5,15,5,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D11,Flexible,41,6,9,6,9.0,9.0,0,0,True,18.0,18.0,Fee_aware
-D33,Flexible,41,4,10,4,9.0,9.0,0,2,True,22.0,22.0,Fee_aware
-D19,Flexible,41,8,13,8,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D36,Flexible,41,8,12,8,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D01,Urgent,41,8,16,8,9.0,9.0,0,0,True,27.0,27.0,Reciprocal
-D00,Flexible,41,10,13,10,6.0,6.0,0,0,True,12.0,12.0,Release
-D20,Flexible,41,12,15,12,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D30,Flexible,42,0,4,0,9.0,9.0,0,1,True,20.0,20.0,Hold
-D05,Flexible,42,4,6,4,6.0,6.0,0,0,True,12.0,12.0,Fee_aware
-D08,Flexible,42,4,6,4,6.0,6.0,0,0,True,12.0,12.0,Release
-D25,Flexible,42,3,14,3,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D20,Flexible,42,5,13,5,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D19,Flexible,42,6,16,6,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D06,Flexible,42,8,13,8,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D27,Flexible,42,9,14,9,6.0,6.0,0,2,True,16.0,16.0,Fee_aware
-D28,Flexible,42,11,14,11,9.0,9.0,0,0,True,18.0,18.0,Fee_aware
-D36,Flexible,42,12,15,12,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D09,Flexible,42,13,16,13,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D26,Flexible,42,13,15,13,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D00,Flexible,43,0,3,0,3.0,3.0,0,0,True,6.0,6.0,Release
-D36,Flexible,43,3,11,3,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D01,Urgent,43,4,8,4,6.0,6.0,0,0,True,18.0,18.0,Reciprocal
-D20,Flexible,43,5,8,5,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D24,Flexible,43,4,15,4,3.0,3.0,0,2,True,10.0,10.0,Hold
-D12,Flexible,43,6,9,6,6.0,6.0,0,1,True,14.0,14.0,Hold
-D06,Flexible,43,6,15,6,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D38,Flexible,43,8,15,8,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D17,Flexible,43,7,11,7,9.0,9.0,0,1,True,20.0,20.0,Hold
-D18,Flexible,43,9,12,9,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D11,Flexible,43,10,14,10,6.0,6.0,0,2,True,16.0,16.0,Fee_aware
-D39,Flexible,43,10,15,10,6.0,6.0,0,2,True,16.0,16.0,Hold
-D15,Flexible,44,0,3,0,3.0,3.0,0,2,True,10.0,10.0,Hold
-D24,Flexible,44,1,11,1,6.0,6.0,0,2,True,16.0,16.0,Hold
-D33,Flexible,44,1,7,1,9.0,9.0,0,2,True,22.0,22.0,Fee_aware
-D13,Flexible,44,3,15,3,3.0,3.0,0,2,True,10.0,10.0,Hold
-D27,Flexible,44,4,11,4,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D08,Flexible,44,8,16,8,3.0,3.0,0,0,True,6.0,6.0,Release
-D01,Urgent,44,8,13,8,6.0,6.0,0,0,True,18.0,18.0,Reciprocal
-D17,Flexible,44,5,11,5,9.0,9.0,0,2,True,22.0,22.0,Hold
-D29,Flexible,44,9,16,9,6.0,6.0,0,2,True,16.0,16.0,Fee_aware
-D16,Flexible,44,13,15,13,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D31,Flexible,44,13,15,13,3.0,3.0,0,1,True,8.0,8.0,Hold
-D30,Flexible,44,12,16,12,3.0,3.0,0,2,True,10.0,10.0,Hold
-D32,Flexible,45,4,13,4,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D30,Flexible,45,2,7,2,9.0,9.0,0,2,True,22.0,22.0,Hold
-D39,Flexible,45,2,16,2,9.0,9.0,0,2,True,22.0,22.0,Hold
-D18,Flexible,45,6,8,7,3.0,3.0,1,0,True,5.0,5.0,Fee_aware
-D28,Flexible,45,5,15,5,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D13,Flexible,45,4,15,4,9.0,9.0,0,2,True,22.0,22.0,Hold
-D21,Flexible,45,4,11,4,9.0,9.0,0,2,True,22.0,22.0,Fee_aware
-D29,Flexible,45,5,15,5,6.0,6.0,0,2,True,16.0,16.0,Fee_aware
-D09,Flexible,45,12,15,12,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D00,Flexible,45,12,15,12,9.0,9.0,0,0,True,18.0,18.0,Release
-D37,Flexible,45,13,15,13,6.0,6.0,0,0,True,12.0,12.0,Release
-D31,Flexible,45,12,16,12,6.0,6.0,0,2,True,16.0,16.0,Hold
-D33,Flexible,46,1,10,1,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D36,Flexible,46,2,13,2,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D20,Flexible,46,4,12,4,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D17,Flexible,46,4,6,4,3.0,3.0,0,1,True,8.0,8.0,Hold
-D02,Flexible,46,5,10,5,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D12,Flexible,46,2,7,2,9.0,9.0,0,2,True,22.0,22.0,Hold
-D00,Flexible,46,5,9,5,9.0,9.0,0,0,True,18.0,18.0,Release
-D15,Flexible,46,5,9,5,6.0,6.0,0,2,True,16.0,16.0,Hold
-D34,Flexible,46,10,12,10,6.0,6.0,0,0,True,12.0,12.0,Fee_aware
-D38,Flexible,46,12,16,12,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D31,Flexible,46,12,14,12,6.0,6.0,0,0,True,12.0,12.0,Hold
-D04,Flexible,46,12,15,12,6.0,6.0,0,1,True,14.0,14.0,Hold
-D06,Flexible,47,1,8,1,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D04,Flexible,47,3,8,3,3.0,3.0,0,2,True,10.0,10.0,Hold
-D12,Flexible,47,3,8,3,6.0,6.0,0,2,True,16.0,16.0,Hold
-D13,Flexible,47,5,15,5,3.0,3.0,0,2,True,10.0,10.0,Hold
-D27,Flexible,47,6,12,6,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D26,Flexible,47,7,13,7,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D15,Flexible,47,9,11,9,3.0,3.0,0,1,True,8.0,8.0,Hold
-D30,Flexible,47,8,14,8,3.0,3.0,0,2,True,10.0,10.0,Hold
-D38,Flexible,47,12,15,12,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D17,Flexible,47,10,14,10,9.0,9.0,0,1,True,20.0,20.0,Hold
-D31,Flexible,47,12,15,12,9.0,9.0,0,0,True,18.0,18.0,Hold
-D24,Flexible,47,11,16,11,6.0,6.0,0,2,True,16.0,16.0,Hold
-D19,Flexible,48,0,14,0,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D29,Flexible,48,1,4,1,6.0,6.0,0,1,True,14.0,14.0,Fee_aware
-D27,Flexible,48,5,7,5,6.0,6.0,0,0,True,12.0,12.0,Fee_aware
-D09,Flexible,48,5,16,5,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D08,Flexible,48,7,16,7,9.0,9.0,0,0,True,18.0,18.0,Release
-D32,Flexible,48,7,15,7,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D16,Flexible,48,10,16,10,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D30,Flexible,48,9,13,9,9.0,9.0,0,1,True,20.0,20.0,Hold
-D21,Flexible,48,10,13,10,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D00,Flexible,48,10,15,10,9.0,9.0,0,0,True,18.0,18.0,Release
-D06,Flexible,48,11,15,11,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D22,Urgent,48,9,14,9,6.0,6.0,0,2,True,20.0,20.0,Fee_aware
-D02,Flexible,49,1,5,1,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D36,Flexible,49,0,10,0,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D09,Flexible,49,2,16,2,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D12,Flexible,49,0,8,0,6.0,6.0,0,2,True,16.0,16.0,Hold
-D34,Flexible,49,1,8,1,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D33,Flexible,49,2,9,2,6.0,6.0,0,2,True,16.0,16.0,Fee_aware
-D03,Urgent,49,3,16,3,3.0,3.0,0,2,True,11.0,11.0,Hold
-D08,Flexible,49,8,16,8,6.0,6.0,0,0,True,12.0,12.0,Release
-D13,Flexible,49,9,12,9,3.0,3.0,0,2,True,10.0,10.0,Hold
-D06,Flexible,49,12,14,12,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D32,Flexible,49,12,14,12,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D35,Flexible,49,12,16,12,6.0,6.0,0,2,True,16.0,16.0,Hold
-D02,Flexible,50,0,4,0,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D08,Flexible,50,1,6,1,6.0,6.0,0,0,True,12.0,12.0,Release
-D15,Flexible,50,0,14,0,6.0,6.0,0,2,True,16.0,16.0,Hold
-D18,Flexible,50,0,9,0,9.0,9.0,0,2,True,22.0,22.0,Fee_aware
-D33,Flexible,50,3,6,3,6.0,6.0,0,1,True,14.0,14.0,Fee_aware
-D21,Flexible,50,4,13,4,9.0,9.0,0,2,True,22.0,22.0,Fee_aware
-D23,Flexible,50,7,10,7,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D07,Flexible,50,7,10,7,9.0,9.0,0,0,True,18.0,18.0,Fee_aware
-D09,Flexible,50,8,14,8,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D35,Flexible,50,5,16,5,9.0,9.0,0,2,True,22.0,22.0,Hold
-D34,Flexible,50,11,16,11,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D27,Flexible,50,10,16,10,9.0,9.0,0,2,True,22.0,22.0,Fee_aware
-D01,Urgent,51,1,4,1,3.0,3.0,0,0,True,9.0,9.0,Reciprocal
-D28,Flexible,51,1,8,1,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D20,Flexible,51,4,6,4,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D24,Flexible,51,4,15,4,3.0,3.0,0,2,True,10.0,10.0,Hold
-D09,Flexible,51,9,14,9,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D35,Flexible,51,9,12,9,6.0,6.0,0,1,True,14.0,14.0,Hold
-D04,Flexible,51,9,12,9,3.0,3.0,0,2,True,10.0,10.0,Hold
-D36,Flexible,51,10,14,10,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D14,Urgent,51,9,15,9,6.0,6.0,0,2,True,20.0,20.0,Hold
-D33,Flexible,51,12,14,12,3.0,3.0,0,1,True,8.0,8.0,Fee_aware
-D38,Flexible,51,13,15,13,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D30,Flexible,51,13,16,13,9.0,9.0,0,0,True,18.0,18.0,Hold
-D37,Flexible,52,0,14,0,3.0,3.0,0,0,True,6.0,6.0,Release
-D25,Flexible,52,0,4,0,9.0,9.0,0,1,True,20.0,20.0,Fee_aware
-D19,Flexible,52,1,8,1,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D18,Flexible,52,2,16,2,9.0,9.0,0,2,True,22.0,22.0,Fee_aware
-D05,Flexible,52,4,9,4,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D22,Urgent,52,5,8,5,6.0,6.0,0,1,True,19.0,19.0,Fee_aware
-D31,Flexible,52,7,9,7,3.0,3.0,0,1,True,8.0,8.0,Hold
-D10,Flexible,52,6,12,6,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D14,Urgent,52,4,13,4,9.0,9.0,0,2,True,29.0,29.0,Hold
-D20,Flexible,52,10,14,10,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D02,Flexible,52,12,15,12,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D24,Flexible,52,9,15,9,6.0,6.0,0,2,True,16.0,16.0,Hold
-D01,Urgent,53,2,14,2,3.0,3.0,0,0,True,9.0,9.0,Reciprocal
-D22,Urgent,53,1,11,1,9.0,9.0,0,2,True,29.0,29.0,Fee_aware
-D39,Flexible,53,1,15,1,9.0,9.0,0,2,True,22.0,22.0,Hold
-D10,Flexible,53,5,11,5,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D16,Flexible,53,6,12,6,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D26,Flexible,53,6,16,6,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D17,Flexible,53,7,9,7,6.0,6.0,0,0,True,12.0,12.0,Hold
-D37,Flexible,53,6,14,6,9.0,9.0,0,0,True,18.0,18.0,Release
-D13,Flexible,53,8,16,8,6.0,6.0,0,2,True,16.0,16.0,Hold
-D09,Flexible,53,13,16,13,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D34,Flexible,53,12,15,12,6.0,6.0,0,1,True,14.0,14.0,Fee_aware
-D04,Flexible,53,13,15,13,6.0,6.0,0,0,True,12.0,12.0,Hold
-D26,Flexible,54,0,16,0,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D28,Flexible,54,3,9,3,6.0,6.0,0,2,True,16.0,16.0,Fee_aware
-D01,Urgent,54,7,9,7,3.0,3.0,0,0,True,9.0,9.0,Reciprocal
-D17,Flexible,54,4,12,4,6.0,6.0,0,2,True,16.0,16.0,Hold
-D08,Flexible,54,8,15,8,3.0,3.0,0,0,True,6.0,6.0,Release
-D15,Flexible,54,4,10,4,9.0,9.0,0,2,True,22.0,22.0,Hold
-D38,Flexible,54,8,16,8,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D00,Flexible,54,9,12,9,3.0,3.0,0,0,True,6.0,6.0,Release
-D23,Flexible,54,9,13,9,9.0,9.0,0,1,True,20.0,20.0,Fee_aware
-D31,Flexible,54,11,13,11,3.0,3.0,0,1,True,8.0,8.0,Hold
-D02,Flexible,54,11,14,11,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D12,Flexible,54,12,16,12,6.0,6.0,0,2,True,16.0,16.0,Hold
-D36,Flexible,55,0,6,0,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D00,Flexible,55,1,15,1,9.0,9.0,0,0,True,18.0,18.0,Release
-D38,Flexible,55,2,15,2,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D37,Flexible,55,5,9,5,6.0,6.0,0,0,True,12.0,12.0,Release
-D22,Urgent,55,7,9,7,6.0,6.0,0,0,True,18.0,18.0,Fee_aware
-D14,Urgent,55,5,16,5,6.0,6.0,0,2,True,20.0,20.0,Hold
-D32,Flexible,55,8,11,8,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D12,Flexible,55,5,15,5,9.0,9.0,0,2,True,22.0,22.0,Hold
-D33,Flexible,55,8,13,8,9.0,9.0,0,2,True,22.0,22.0,Fee_aware
-D16,Flexible,55,11,15,11,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D19,Flexible,55,12,15,12,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D03,Urgent,55,13,16,13,6.0,6.0,0,1,True,19.0,19.0,Hold
-D16,Flexible,56,3,10,3,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D10,Flexible,56,4,7,4,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D19,Flexible,56,4,7,4,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D14,Urgent,56,5,13,5,6.0,6.0,0,2,True,20.0,20.0,Hold
-D23,Flexible,56,9,11,9,6.0,6.0,0,0,True,12.0,12.0,Fee_aware
-D21,Flexible,56,7,13,7,9.0,9.0,0,2,True,22.0,22.0,Fee_aware
-D31,Flexible,56,11,13,11,3.0,3.0,0,1,True,8.0,8.0,Hold
-D05,Flexible,56,8,16,8,9.0,9.0,0,2,True,22.0,22.0,Fee_aware
-D25,Flexible,56,8,16,8,9.0,9.0,0,2,True,22.0,22.0,Fee_aware
-D04,Flexible,56,9,14,9,9.0,9.0,0,2,True,22.0,22.0,Hold
-D08,Flexible,56,12,16,12,6.0,6.0,0,0,True,12.0,12.0,Release
-D27,Flexible,56,13,16,13,6.0,6.0,0,1,True,14.0,14.0,Fee_aware
-D03,Urgent,57,0,7,0,6.0,6.0,0,2,True,20.0,20.0,Hold
-D36,Flexible,57,4,7,4,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D30,Flexible,57,5,7,5,6.0,6.0,0,0,True,12.0,12.0,Hold
-D28,Flexible,57,4,10,4,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D15,Flexible,57,6,12,6,3.0,3.0,0,2,True,10.0,10.0,Hold
-D00,Flexible,57,8,11,8,6.0,6.0,0,0,True,12.0,12.0,Release
-D35,Flexible,57,9,14,9,3.0,3.0,0,2,True,10.0,10.0,Hold
-D13,Flexible,57,11,13,11,6.0,6.0,0,0,True,12.0,12.0,Hold
-D37,Flexible,57,12,15,12,3.0,3.0,0,0,True,6.0,6.0,Release
-D12,Flexible,57,8,16,8,9.0,9.0,0,2,True,22.0,22.0,Hold
-D33,Flexible,57,9,16,9,6.0,6.0,0,2,True,16.0,16.0,Fee_aware
-D32,Flexible,57,11,16,11,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D37,Flexible,58,1,9,1,6.0,6.0,0,0,True,12.0,12.0,Release
-D28,Flexible,58,1,13,1,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D27,Flexible,58,1,9,1,9.0,9.0,0,2,True,22.0,22.0,Fee_aware
-D35,Flexible,58,2,14,2,9.0,9.0,0,2,True,22.0,22.0,Hold
-D02,Flexible,58,6,13,6,6.0,6.0,0,0,True,12.0,12.0,Reciprocal
-D09,Flexible,58,8,10,8,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D33,Flexible,58,8,11,8,9.0,9.0,0,0,True,18.0,18.0,Fee_aware
-D31,Flexible,58,8,15,8,6.0,6.0,0,2,True,16.0,16.0,Hold
-D15,Flexible,58,9,16,9,3.0,3.0,0,2,True,10.0,10.0,Hold
-D11,Flexible,58,10,13,10,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D12,Flexible,58,12,16,12,6.0,6.0,0,2,True,16.0,16.0,Hold
-D17,Flexible,58,12,16,12,6.0,6.0,0,2,True,16.0,16.0,Hold
-D26,Flexible,59,0,4,0,9.0,9.0,0,0,True,18.0,18.0,Reciprocal
-D36,Flexible,59,2,15,2,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D38,Flexible,59,5,16,5,3.0,3.0,0,0,True,6.0,6.0,Reciprocal
-D17,Flexible,59,6,8,6,6.0,6.0,0,0,True,12.0,12.0,Hold
-D28,Flexible,59,5,16,5,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D12,Flexible,59,6,16,6,6.0,6.0,0,2,True,16.0,16.0,Hold
-D33,Flexible,59,8,16,8,3.0,3.0,0,2,True,10.0,10.0,Fee_aware
-D15,Flexible,59,7,12,7,9.0,9.0,0,2,True,22.0,22.0,Hold
-D34,Flexible,59,8,13,8,6.0,6.0,0,2,True,16.0,16.0,Fee_aware
-D00,Flexible,59,13,16,13,3.0,3.0,0,0,True,6.0,6.0,Release
-D30,Flexible,59,10,15,10,6.0,6.0,0,2,True,16.0,16.0,Hold
-D24,Flexible,59,12,15,12,6.0,6.0,0,1,True,14.0,14.0,Hold
+driver_id,type,day,arrival,departure,start,finish,release,action,requested_kwh,energy_kwh,wait_slots,idle_slots,penalty,fully_served,utility_before,utility_after,rule
+D014,Urgent,1,2,12,2,5,5,Release,9.0,9.0,0,0,0,True,27.0,27.0,release
+D009,Flexible,1,0,7,0,5,7,Hold 2,15.0,15.0,0,2,0,True,34.0,34.0,hold
+D031,Flexible,1,2,7,2,7,7,Forced Release,15.0,15.0,0,0,0,True,30.0,30.0,hold
+D019,Urgent,1,3,11,3,5,7,Hold 2,6.0,6.0,0,2,0,True,20.0,20.0,fee_aware
+D039,Flexible,1,2,13,2,6,8,Hold 2,12.0,12.0,0,2,0,True,28.0,28.0,fee_aware
+D038,Flexible,1,2,9,2,8,9,Hold 1,18.0,18.0,0,1,0,True,38.0,38.0,fee_aware
+D026,Flexible,1,4,10,5,,10,Departure,18.0,15.0,1,0,0,False,29.0,29.0,reciprocal
+D022,Flexible,1,7,11,8,11,11,Forced Release,9.0,9.0,1,0,0,True,17.0,17.0,reciprocal
+D007,Flexible,1,6,16,7,13,13,Release,18.0,18.0,1,0,0,True,35.0,35.0,release
+D023,Flexible,1,5,15,7,12,14,Hold 2,15.0,15.0,2,2,0,True,32.0,32.0,fee_aware
+D027,Flexible,1,8,16,9,15,15,Release,18.0,18.0,1,0,0,True,35.0,35.0,release
+D006,Urgent,1,6,16,7,13,15,Hold 2,18.0,18.0,1,2,0,True,53.0,53.0,fee_aware
+D030,Flexible,2,1,3,1,3,3,Forced Release,6.0,6.0,0,0,0,True,12.0,12.0,fee_aware
+D001,Flexible,2,4,7,4,6,6,Release,6.0,6.0,0,0,0,True,12.0,12.0,reciprocal
+D033,Flexible,2,4,7,6,,7,Departure,6.0,3.0,2,0,0,False,4.0,4.0,hold
+D010,Flexible,2,3,10,3,5,7,Hold 2,6.0,6.0,0,2,0,True,16.0,16.0,hold
+D022,Flexible,2,4,11,4,8,8,Release,12.0,12.0,0,0,0,True,24.0,24.0,reciprocal
+D015,Flexible,2,3,10,3,9,9,Release,18.0,18.0,0,0,0,True,36.0,36.0,release
+D020,Flexible,2,1,10,1,7,9,Hold 2,18.0,18.0,0,2,0,True,40.0,40.0,hold
+D018,Urgent,2,8,14,8,12,12,Release,12.0,12.0,0,0,0,True,36.0,36.0,release
+D025,Flexible,2,8,13,9,12,12,Release,9.0,9.0,1,0,0,True,17.0,17.0,release
+D012,Urgent,2,4,13,4,10,12,Hold 2,18.0,18.0,0,2,0,True,56.0,56.0,hold
+D024,Flexible,2,8,16,8,13,13,Release,15.0,15.0,0,0,0,True,30.0,30.0,release
+D021,Urgent,2,8,16,8,11,13,Hold 2,9.0,9.0,0,2,0,True,29.0,29.0,hold
+D031,Flexible,3,0,8,0,3,5,Hold 2,9.0,9.0,0,2,0,True,22.0,22.0,hold
+D032,Flexible,3,1,7,1,3,5,Hold 2,6.0,6.0,0,2,0,True,16.0,16.0,fee_aware
+D023,Flexible,3,3,8,3,7,8,Hold 1,12.0,12.0,0,1,0,True,26.0,26.0,fee_aware
+D024,Flexible,3,3,11,3,9,9,Release,18.0,18.0,0,0,0,True,36.0,36.0,release
+D033,Flexible,3,3,15,3,8,10,Hold 2,15.0,15.0,0,2,0,True,34.0,34.0,hold
+D019,Urgent,3,3,11,3,9,11,Hold 2,18.0,18.0,0,2,0,True,56.0,56.0,fee_aware
+D016,Urgent,3,4,11,8,,11,Departure,12.0,9.0,4,0,0,False,15.0,15.0,hold
+D010,Flexible,3,4,16,5,10,12,Hold 2,15.0,15.0,1,2,0,True,33.0,33.0,hold
+D009,Flexible,3,4,16,5,11,13,Hold 2,18.0,18.0,1,2,0,True,39.0,39.0,hold
+D034,Flexible,3,8,15,11,14,15,Hold 1,9.0,9.0,3,1,0,True,17.0,17.0,fee_aware
+D008,Urgent,3,5,16,9,15,15,Release,18.0,18.0,4,0,0,True,42.0,42.0,reciprocal
+D036,Urgent,3,7,16,10,15,16,Hold 1,15.0,15.0,3,1,0,True,37.0,37.0,hold
+D024,Flexible,4,3,7,3,5,5,Release,6.0,6.0,0,0,0,True,12.0,12.0,release
+D008,Urgent,4,0,7,0,4,5,Hold 1,12.0,12.0,0,1,0,True,37.0,37.0,reciprocal
+D001,Flexible,4,2,10,2,7,7,Release,15.0,15.0,0,0,0,True,30.0,30.0,reciprocal
+D007,Flexible,4,2,8,2,7,7,Release,15.0,15.0,0,0,0,True,30.0,30.0,release
+D035,Urgent,4,0,12,0,6,8,Hold 2,18.0,18.0,0,2,0,True,56.0,56.0,fee_aware
+D025,Flexible,4,3,12,3,9,9,Release,18.0,18.0,0,0,0,True,36.0,36.0,release
+D015,Flexible,4,6,16,7,10,10,Release,9.0,9.0,1,0,0,True,17.0,17.0,release
+D013,Urgent,4,5,11,5,11,11,Forced Release,18.0,18.0,0,0,0,True,54.0,54.0,release
+D039,Flexible,4,5,12,5,10,12,Hold 2,15.0,15.0,0,2,0,True,34.0,34.0,fee_aware
+D021,Urgent,4,8,13,9,13,13,Forced Release,12.0,12.0,1,0,0,True,33.0,33.0,hold
+D022,Flexible,4,6,14,7,13,13,Release,18.0,18.0,1,0,0,True,35.0,35.0,reciprocal
+D005,Urgent,4,8,14,8,14,14,Forced Release,18.0,18.0,0,0,0,True,54.0,54.0,reciprocal
+D015,Flexible,5,0,5,0,3,3,Release,9.0,9.0,0,0,0,True,18.0,18.0,release
+D017,Urgent,5,1,6,1,3,3,Release,6.0,6.0,0,0,0,True,18.0,18.0,release
+D038,Flexible,5,1,5,1,5,5,Forced Release,12.0,12.0,0,0,0,True,24.0,24.0,fee_aware
+D022,Flexible,5,3,10,3,5,5,Release,6.0,6.0,0,0,0,True,12.0,12.0,reciprocal
+D008,Urgent,5,1,11,1,6,6,Release,15.0,15.0,0,0,0,True,45.0,45.0,reciprocal
+D003,Flexible,5,1,10,1,7,7,Release,18.0,18.0,0,0,0,True,36.0,36.0,reciprocal
+D023,Flexible,5,3,10,3,6,8,Hold 2,9.0,9.0,0,2,0,True,22.0,22.0,fee_aware
+D031,Flexible,5,4,9,4,6,8,Hold 2,6.0,6.0,0,2,0,True,16.0,16.0,hold
+D027,Flexible,5,6,11,6,9,9,Release,9.0,9.0,0,0,0,True,18.0,18.0,release
+D013,Urgent,5,8,16,8,11,11,Release,9.0,9.0,0,0,0,True,27.0,27.0,release
+D039,Flexible,5,4,14,5,10,12,Hold 2,15.0,15.0,1,2,0,True,33.0,33.0,fee_aware
+D012,Urgent,5,7,15,7,10,12,Hold 2,9.0,9.0,0,2,0,True,29.0,29.0,hold
+D018,Urgent,6,3,6,3,6,6,Forced Release,9.0,9.0,0,0,0,True,27.0,27.0,release
+D014,Urgent,6,3,7,3,6,6,Release,9.0,9.0,0,0,0,True,27.0,27.0,release
+D020,Flexible,6,1,8,1,4,6,Hold 2,9.0,9.0,0,2,0,True,22.0,22.0,hold
+D006,Urgent,6,2,10,2,5,7,Hold 2,9.0,9.0,0,2,0,True,29.0,29.0,fee_aware
+D034,Flexible,6,2,9,2,6,8,Hold 2,12.0,12.0,0,2,0,True,28.0,28.0,fee_aware
+D019,Urgent,6,6,15,6,9,11,Hold 2,9.0,9.0,0,2,0,True,29.0,29.0,fee_aware
+D036,Urgent,6,4,12,4,10,12,Hold 2,18.0,18.0,0,2,0,True,56.0,56.0,hold
+D005,Urgent,6,5,16,6,12,12,Release,18.0,18.0,1,0,0,True,51.0,51.0,reciprocal
+D023,Flexible,6,6,13,6,12,13,Hold 1,18.0,18.0,0,1,0,True,38.0,38.0,fee_aware
+D015,Flexible,6,8,13,11,13,13,Forced Release,6.0,6.0,3,0,0,True,9.0,9.0,release
+D037,Urgent,6,7,16,7,13,13,Release,18.0,18.0,0,0,0,True,54.0,54.0,reciprocal
+D009,Flexible,6,8,16,8,11,13,Hold 2,9.0,9.0,0,2,0,True,22.0,22.0,hold
+D023,Flexible,7,1,3,1,3,3,Forced Release,6.0,6.0,0,0,0,True,12.0,12.0,fee_aware
+D027,Flexible,7,1,6,1,4,4,Release,9.0,9.0,0,0,0,True,18.0,18.0,release
+D030,Flexible,7,2,6,2,5,6,Hold 1,9.0,9.0,0,1,0,True,20.0,20.0,fee_aware
+D040,Flexible,7,0,11,0,5,7,Hold 2,15.0,15.0,0,2,0,True,34.0,34.0,hold
+D019,Urgent,7,2,12,2,5,7,Hold 2,9.0,9.0,0,2,0,True,29.0,29.0,fee_aware
+D037,Urgent,7,2,10,3,9,9,Release,18.0,18.0,1,0,0,True,51.0,51.0,reciprocal
+D031,Flexible,7,1,12,1,7,9,Hold 2,18.0,18.0,0,2,0,True,40.0,40.0,hold
+D012,Urgent,7,3,10,4,8,10,Hold 2,12.0,12.0,1,2,0,True,35.0,35.0,hold
+D026,Flexible,7,4,10,6,,10,Departure,18.0,12.0,2,0,0,False,22.0,22.0,reciprocal
+D039,Flexible,7,4,13,9,,13,Departure,15.0,12.0,5,0,0,False,19.0,19.0,fee_aware
+D035,Urgent,7,4,15,7,11,13,Hold 2,12.0,12.0,3,2,0,True,29.0,29.0,fee_aware
+D034,Flexible,7,4,14,7,12,14,Hold 2,15.0,15.0,3,2,0,True,31.0,31.0,fee_aware
+D037,Urgent,8,0,7,0,2,2,Release,6.0,6.0,0,0,0,True,18.0,18.0,reciprocal
+D017,Urgent,8,0,8,0,4,4,Release,12.0,12.0,0,0,0,True,36.0,36.0,release
+D036,Urgent,8,0,9,0,3,5,Hold 2,9.0,9.0,0,2,0,True,29.0,29.0,hold
+D030,Flexible,8,2,6,2,4,6,Hold 2,6.0,6.0,0,2,0,True,16.0,16.0,fee_aware
+D011,Flexible,8,4,6,5,,6,Departure,6.0,3.0,1,0,0,False,5.0,5.0,reciprocal
+D032,Flexible,8,2,8,2,4,6,Hold 2,6.0,6.0,0,2,0,True,16.0,16.0,fee_aware
+D019,Urgent,8,1,7,1,5,7,Hold 2,12.0,12.0,0,2,0,True,38.0,38.0,fee_aware
+D035,Urgent,8,2,11,2,8,10,Hold 2,18.0,18.0,0,2,0,True,56.0,56.0,fee_aware
+D038,Flexible,8,6,13,6,8,10,Hold 2,6.0,6.0,0,2,0,True,16.0,16.0,fee_aware
+D009,Flexible,8,4,11,4,9,11,Hold 2,15.0,15.0,0,2,0,True,34.0,34.0,hold
+D007,Flexible,8,5,15,6,12,12,Release,18.0,18.0,1,0,0,True,35.0,35.0,release
+D015,Flexible,8,8,13,8,12,12,Release,12.0,12.0,0,0,0,True,24.0,24.0,release
+D005,Urgent,9,1,9,1,4,4,Release,9.0,9.0,0,0,0,True,27.0,27.0,reciprocal
+D028,Flexible,9,3,11,3,5,5,Release,6.0,6.0,0,0,0,True,12.0,12.0,reciprocal
+D017,Urgent,9,2,6,2,6,6,Forced Release,12.0,12.0,0,0,0,True,36.0,36.0,release
+D031,Flexible,9,2,7,2,7,7,Forced Release,15.0,15.0,0,0,0,True,30.0,30.0,hold
+D027,Flexible,9,4,8,7,,8,Departure,6.0,3.0,3,0,0,False,3.0,3.0,release
+D020,Flexible,9,0,11,0,6,8,Hold 2,18.0,18.0,0,2,0,True,40.0,40.0,hold
+D024,Flexible,9,3,16,3,9,9,Release,18.0,18.0,0,0,0,True,36.0,36.0,release
+D015,Flexible,9,4,13,5,9,9,Release,12.0,12.0,1,0,0,True,23.0,23.0,release
+D010,Flexible,9,4,13,4,7,9,Hold 2,9.0,9.0,0,2,0,True,22.0,22.0,hold
+D012,Urgent,9,7,11,8,11,11,Forced Release,9.0,9.0,1,0,0,True,24.0,24.0,hold
+D029,Urgent,9,5,13,8,13,13,Forced Release,15.0,15.0,3,0,0,True,36.0,36.0,release
+D016,Urgent,9,4,16,6,11,13,Hold 2,15.0,15.0,2,2,0,True,41.0,41.0,hold
+D018,Urgent,10,0,6,0,2,2,Release,6.0,6.0,0,0,0,True,18.0,18.0,release
+D025,Flexible,10,1,8,1,3,3,Release,6.0,6.0,0,0,0,True,12.0,12.0,release
+D001,Flexible,10,1,7,1,4,4,Release,9.0,9.0,0,0,0,True,18.0,18.0,reciprocal
+D027,Flexible,10,0,12,0,5,5,Release,15.0,15.0,0,0,0,True,30.0,30.0,release
+D012,Urgent,10,4,7,4,6,7,Hold 1,6.0,6.0,0,1,0,True,19.0,19.0,hold
+D015,Flexible,10,1,9,1,7,7,Release,18.0,18.0,0,0,0,True,36.0,36.0,release
+D032,Flexible,10,2,10,2,8,10,Hold 2,18.0,18.0,0,2,0,True,40.0,40.0,fee_aware
+D014,Urgent,10,4,16,4,10,10,Release,18.0,18.0,0,0,0,True,54.0,54.0,release
+D037,Urgent,10,5,14,5,10,10,Release,15.0,15.0,0,0,0,True,45.0,45.0,reciprocal
+D004,Flexible,10,6,16,7,10,10,Release,9.0,9.0,1,0,0,True,17.0,17.0,reciprocal
+D016,Urgent,10,3,11,3,9,11,Hold 2,18.0,18.0,0,2,0,True,56.0,56.0,hold
+D038,Flexible,10,7,13,7,10,12,Hold 2,9.0,9.0,0,2,0,True,22.0,22.0,fee_aware
+D004,Flexible,11,0,10,0,4,4,Release,12.0,12.0,0,0,0,True,24.0,24.0,reciprocal
+D011,Flexible,11,1,7,1,3,4,Hold 1,6.0,6.0,0,1,0,True,14.0,14.0,reciprocal
+D027,Flexible,11,2,13,2,7,7,Release,15.0,15.0,0,0,0,True,30.0,30.0,release
+D019,Urgent,11,0,8,0,5,7,Hold 2,15.0,15.0,0,2,0,True,47.0,47.0,fee_aware
+D030,Flexible,11,1,8,1,7,8,Hold 1,18.0,18.0,0,1,0,True,38.0,38.0,fee_aware
+D012,Urgent,11,4,12,4,7,9,Hold 2,9.0,9.0,0,2,0,True,29.0,29.0,hold
+D005,Urgent,11,4,10,4,10,10,Forced Release,18.0,18.0,0,0,0,True,54.0,54.0,reciprocal
+D033,Flexible,11,4,11,4,10,11,Hold 1,18.0,18.0,0,1,0,True,38.0,38.0,hold
+D001,Flexible,11,7,13,7,11,11,Release,12.0,12.0,0,0,0,True,24.0,24.0,reciprocal
+D032,Flexible,11,8,14,9,11,13,Hold 2,6.0,6.0,1,2,0,True,15.0,15.0,fee_aware
+D028,Flexible,11,8,16,8,14,14,Release,18.0,18.0,0,0,0,True,36.0,36.0,reciprocal
+D034,Flexible,11,7,16,7,12,14,Hold 2,15.0,15.0,0,2,0,True,34.0,34.0,fee_aware
+D006,Urgent,12,0,9,0,2,4,Hold 2,6.0,6.0,0,2,0,True,20.0,20.0,fee_aware
+D020,Flexible,12,2,5,2,5,5,Forced Release,9.0,9.0,0,0,0,True,18.0,18.0,hold
+D015,Flexible,12,1,8,1,5,5,Release,12.0,12.0,0,0,0,True,24.0,24.0,release
+D017,Urgent,12,1,12,1,5,5,Release,12.0,12.0,0,0,0,True,36.0,36.0,release
+D009,Flexible,12,1,8,1,3,5,Hold 2,6.0,6.0,0,2,0,True,16.0,16.0,hold
+D004,Flexible,12,3,9,4,6,6,Release,6.0,6.0,1,0,0,True,11.0,11.0,reciprocal
+D002,Flexible,12,0,7,0,4,6,Hold 2,12.0,12.0,0,2,0,True,28.0,28.0,fee_aware
+D008,Urgent,12,3,9,5,7,7,Release,6.0,6.0,2,0,0,True,12.0,12.0,reciprocal
+D039,Flexible,12,6,8,6,8,8,Forced Release,6.0,6.0,0,0,0,True,12.0,12.0,fee_aware
+D029,Urgent,12,3,11,5,8,8,Release,9.0,9.0,2,0,0,True,21.0,21.0,release
+D012,Urgent,12,6,11,6,8,10,Hold 2,6.0,6.0,0,2,0,True,20.0,20.0,hold
+D036,Urgent,12,4,11,5,11,11,Forced Release,18.0,18.0,1,0,0,True,51.0,51.0,hold
+D019,Urgent,13,1,4,1,4,4,Forced Release,9.0,9.0,0,0,0,True,27.0,27.0,fee_aware
+D001,Flexible,13,0,7,0,4,4,Release,12.0,12.0,0,0,0,True,24.0,24.0,reciprocal
+D004,Flexible,13,1,8,1,5,5,Release,12.0,12.0,0,0,0,True,24.0,24.0,reciprocal
+D002,Flexible,13,1,7,1,3,5,Hold 2,6.0,6.0,0,2,0,True,16.0,16.0,fee_aware
+D036,Urgent,13,1,6,1,3,5,Hold 2,6.0,6.0,0,2,0,True,20.0,20.0,hold
+D020,Flexible,13,2,6,2,4,6,Hold 2,6.0,6.0,0,2,0,True,16.0,16.0,hold
+D013,Urgent,13,3,7,4,6,6,Release,6.0,6.0,1,0,0,True,15.0,15.0,release
+D023,Flexible,13,4,7,5,7,7,Forced Release,6.0,6.0,1,0,0,True,11.0,11.0,fee_aware
+D033,Flexible,13,3,9,5,7,9,Hold 2,6.0,6.0,2,2,0,True,14.0,14.0,hold
+D025,Flexible,13,2,11,4,10,10,Release,18.0,18.0,2,0,0,True,34.0,34.0,release
+D037,Urgent,13,4,15,5,10,10,Release,15.0,15.0,1,0,0,True,42.0,42.0,reciprocal
+D026,Flexible,13,7,11,7,11,11,Forced Release,12.0,12.0,0,0,0,True,24.0,24.0,reciprocal
+D030,Flexible,14,3,6,3,6,6,Forced Release,9.0,9.0,0,0,0,True,18.0,18.0,fee_aware
+D031,Flexible,14,2,7,2,5,7,Hold 2,9.0,9.0,0,2,0,True,22.0,22.0,hold
+D003,Flexible,14,3,12,3,8,8,Release,15.0,15.0,0,0,0,True,30.0,30.0,reciprocal
+D023,Flexible,14,1,11,1,6,8,Hold 2,15.0,15.0,0,2,0,True,34.0,34.0,fee_aware
+D034,Flexible,14,3,10,3,9,10,Hold 1,18.0,18.0,0,1,0,True,38.0,38.0,fee_aware
+D007,Flexible,14,4,16,4,10,10,Release,18.0,18.0,0,0,0,True,36.0,36.0,release
+D012,Urgent,14,4,11,6,9,11,Hold 2,9.0,9.0,2,2,0,True,23.0,23.0,hold
+D038,Flexible,14,4,11,7,9,11,Hold 2,6.0,6.0,3,2,0,True,13.0,13.0,fee_aware
+D014,Urgent,14,5,11,8,,11,Departure,15.0,9.0,3,0,0,False,18.0,18.0,release
+D022,Flexible,14,5,12,8,,12,Departure,18.0,12.0,3,0,0,False,21.0,21.0,reciprocal
+D036,Urgent,14,8,13,10,13,13,Forced Release,9.0,9.0,2,0,0,True,21.0,21.0,hold
+D027,Flexible,14,6,14,10,14,14,Forced Release,12.0,12.0,4,0,0,True,20.0,20.0,release
+D029,Urgent,15,0,5,0,5,5,Forced Release,15.0,15.0,0,0,0,True,45.0,45.0,release
+D028,Flexible,15,1,7,1,7,7,Forced Release,18.0,18.0,0,0,0,True,36.0,36.0,reciprocal
+D021,Urgent,15,0,12,0,5,7,Hold 2,15.0,15.0,0,2,0,True,47.0,47.0,hold
+D036,Urgent,15,5,8,5,8,8,Forced Release,9.0,9.0,0,0,0,True,27.0,27.0,hold
+D004,Flexible,15,3,15,3,8,8,Release,15.0,15.0,0,0,0,True,30.0,30.0,reciprocal
+D012,Urgent,15,4,11,4,6,8,Hold 2,6.0,6.0,0,2,0,True,20.0,20.0,hold
+D024,Flexible,15,7,9,8,,9,Departure,6.0,3.0,1,0,0,False,5.0,5.0,release
+D032,Flexible,15,2,12,2,7,9,Hold 2,15.0,15.0,0,2,0,True,34.0,34.0,fee_aware
+D023,Flexible,15,6,11,7,9,11,Hold 2,6.0,6.0,1,2,0,True,15.0,15.0,fee_aware
+D001,Flexible,15,6,16,7,12,12,Release,15.0,15.0,1,0,0,True,29.0,29.0,reciprocal
+D010,Flexible,15,8,14,8,14,14,Forced Release,18.0,18.0,0,0,0,True,36.0,36.0,hold
+D040,Flexible,15,8,16,8,14,16,Hold 2,18.0,18.0,0,2,0,True,40.0,40.0,hold
+D024,Flexible,16,2,8,2,4,4,Release,6.0,6.0,0,0,0,True,12.0,12.0,release
+D005,Urgent,16,0,9,0,5,5,Release,15.0,15.0,0,0,0,True,45.0,45.0,reciprocal
+D027,Flexible,16,1,11,1,6,6,Release,15.0,15.0,0,0,0,True,30.0,30.0,release
+D014,Urgent,16,3,8,3,7,7,Release,12.0,12.0,0,0,0,True,36.0,36.0,release
+D033,Flexible,16,1,9,1,6,8,Hold 2,15.0,15.0,0,2,0,True,34.0,34.0,hold
+D018,Urgent,16,6,9,,,9,Unserved,6.0,0.0,3,0,0,False,-9.0,-9.0,release
+D031,Flexible,16,3,11,3,7,9,Hold 2,12.0,12.0,0,2,0,True,28.0,28.0,hold
+D032,Flexible,16,4,10,5,10,10,Forced Release,15.0,15.0,1,0,0,True,29.0,29.0,fee_aware
+D035,Urgent,16,4,11,6,,11,Departure,18.0,15.0,2,0,0,False,39.0,39.0,fee_aware
+D019,Urgent,16,4,14,4,10,12,Hold 2,18.0,18.0,0,2,0,True,56.0,56.0,fee_aware
+D011,Flexible,16,6,13,8,,13,Departure,18.0,15.0,2,0,0,False,28.0,28.0,reciprocal
+D016,Urgent,16,5,14,7,13,14,Hold 1,18.0,18.0,2,1,0,True,49.0,49.0,hold
+D022,Flexible,17,0,5,0,4,5,Hold 1,12.0,12.0,0,1,0,True,26.0,26.0,reciprocal
+D023,Flexible,17,0,6,0,3,5,Hold 2,9.0,9.0,0,2,0,True,22.0,22.0,fee_aware
+D033,Flexible,17,1,8,1,3,5,Hold 2,6.0,6.0,0,2,0,True,16.0,16.0,hold
+D015,Flexible,17,1,10,1,6,6,Release,15.0,15.0,0,0,0,True,30.0,30.0,release
+D018,Urgent,17,3,9,3,8,8,Release,15.0,15.0,0,0,0,True,45.0,45.0,release
+D005,Urgent,17,7,15,7,9,9,Release,6.0,6.0,0,0,0,True,18.0,18.0,reciprocal
+D030,Flexible,17,5,10,5,7,9,Hold 2,6.0,6.0,0,2,0,True,16.0,16.0,fee_aware
+D026,Flexible,17,4,15,4,10,10,Release,18.0,18.0,0,0,0,True,36.0,36.0,reciprocal
+D013,Urgent,17,8,16,8,10,10,Release,6.0,6.0,0,0,0,True,18.0,18.0,release
+D003,Flexible,17,7,15,7,12,12,Release,15.0,15.0,0,0,0,True,30.0,30.0,reciprocal
+D036,Urgent,17,7,15,7,11,13,Hold 2,12.0,12.0,0,2,0,True,38.0,38.0,hold
+D039,Flexible,17,8,15,9,13,15,Hold 2,12.0,12.0,1,2,0,True,27.0,27.0,fee_aware
+D022,Flexible,18,3,12,3,5,5,Release,6.0,6.0,0,0,0,True,12.0,12.0,reciprocal
+D024,Flexible,18,4,6,5,,6,Departure,6.0,3.0,1,0,0,False,5.0,5.0,release
+D017,Urgent,18,1,7,1,7,7,Forced Release,18.0,18.0,0,0,0,True,54.0,54.0,release
+D023,Flexible,18,4,7,4,7,7,Forced Release,9.0,9.0,0,0,0,True,18.0,18.0,fee_aware
+D026,Flexible,18,1,14,1,7,7,Release,18.0,18.0,0,0,0,True,36.0,36.0,reciprocal
+D004,Flexible,18,3,11,3,9,9,Release,18.0,18.0,0,0,0,True,36.0,36.0,reciprocal
+D025,Flexible,18,7,12,7,10,10,Release,9.0,9.0,0,0,0,True,18.0,18.0,release
+D035,Urgent,18,2,14,2,8,10,Hold 2,18.0,18.0,0,2,0,True,56.0,56.0,fee_aware
+D039,Flexible,18,5,11,6,10,11,Hold 1,12.0,12.0,1,1,0,True,25.0,25.0,fee_aware
+D015,Flexible,18,6,16,7,12,12,Release,15.0,15.0,1,0,0,True,29.0,29.0,release
+D002,Flexible,18,7,14,7,13,14,Hold 1,18.0,18.0,0,1,0,True,38.0,38.0,fee_aware
+D007,Flexible,18,8,15,9,15,15,Forced Release,18.0,18.0,1,0,0,True,35.0,35.0,release
+D018,Urgent,19,2,9,2,4,4,Release,6.0,6.0,0,0,0,True,18.0,18.0,release
+D019,Urgent,19,1,7,1,7,7,Forced Release,18.0,18.0,0,0,0,True,54.0,54.0,fee_aware
+D015,Flexible,19,1,7,1,7,7,Forced Release,18.0,18.0,0,0,0,True,36.0,36.0,release
+D028,Flexible,19,1,14,1,7,7,Release,18.0,18.0,0,0,0,True,36.0,36.0,reciprocal
+D026,Flexible,19,3,12,3,7,7,Release,12.0,12.0,0,0,0,True,24.0,24.0,reciprocal
+D032,Flexible,19,2,10,2,7,9,Hold 2,15.0,15.0,0,2,0,True,34.0,34.0,fee_aware
+D004,Flexible,19,4,14,4,10,10,Release,18.0,18.0,0,0,0,True,36.0,36.0,reciprocal
+D029,Urgent,19,6,14,7,10,10,Release,9.0,9.0,1,0,0,True,24.0,24.0,release
+D025,Flexible,19,6,12,7,12,12,Forced Release,15.0,15.0,1,0,0,True,29.0,29.0,release
+D013,Urgent,19,8,16,8,13,13,Release,15.0,15.0,0,0,0,True,45.0,45.0,release
+D037,Urgent,19,8,16,9,13,13,Release,12.0,12.0,1,0,0,True,33.0,33.0,reciprocal
+D023,Flexible,19,7,16,7,13,15,Hold 2,18.0,18.0,0,2,0,True,40.0,40.0,fee_aware
+D004,Flexible,20,0,6,0,2,2,Release,6.0,6.0,0,0,0,True,12.0,12.0,reciprocal
+D030,Flexible,20,1,3,1,3,3,Forced Release,6.0,6.0,0,0,0,True,12.0,12.0,fee_aware
+D015,Flexible,20,0,5,0,4,4,Release,12.0,12.0,0,0,0,True,24.0,24.0,release
+D022,Flexible,20,2,8,2,6,6,Release,12.0,12.0,0,0,0,True,24.0,24.0,reciprocal
+D025,Flexible,20,2,9,3,6,6,Release,9.0,9.0,1,0,0,True,17.0,17.0,release
+D039,Flexible,20,1,8,1,5,7,Hold 2,12.0,12.0,0,2,0,True,28.0,28.0,fee_aware
+D032,Flexible,20,0,10,0,6,8,Hold 2,18.0,18.0,0,2,0,True,40.0,40.0,fee_aware
+D021,Urgent,20,2,10,2,6,8,Hold 2,12.0,12.0,0,2,0,True,38.0,38.0,hold
+D010,Flexible,20,3,9,4,6,8,Hold 2,6.0,6.0,1,2,0,True,15.0,15.0,hold
+D034,Flexible,20,3,12,6,8,10,Hold 2,6.0,6.0,3,2,0,True,13.0,13.0,fee_aware
+D020,Flexible,20,5,11,6,8,10,Hold 2,6.0,6.0,1,2,0,True,15.0,15.0,hold
+D003,Flexible,20,6,13,7,13,13,Forced Release,18.0,18.0,1,0,0,True,35.0,35.0,reciprocal
+D017,Urgent,21,0,5,0,2,2,Release,6.0,6.0,0,0,0,True,18.0,18.0,release
+D025,Flexible,21,1,11,1,4,4,Release,9.0,9.0,0,0,0,True,18.0,18.0,release
+D016,Urgent,21,0,8,0,2,4,Hold 2,6.0,6.0,0,2,0,True,20.0,20.0,hold
+D022,Flexible,21,2,10,2,5,5,Release,9.0,9.0,0,0,0,True,18.0,18.0,reciprocal
+D037,Urgent,21,1,7,1,6,6,Release,15.0,15.0,0,0,0,True,45.0,45.0,reciprocal
+D020,Flexible,21,2,11,2,5,7,Hold 2,9.0,9.0,0,2,0,True,22.0,22.0,hold
+D031,Flexible,21,0,9,0,6,8,Hold 2,18.0,18.0,0,2,0,True,40.0,40.0,hold
+D030,Flexible,21,2,10,4,6,8,Hold 2,6.0,6.0,2,2,0,True,14.0,14.0,fee_aware
+D021,Urgent,21,3,12,4,6,8,Hold 2,6.0,6.0,1,2,0,True,17.0,17.0,hold
+D039,Flexible,21,5,11,6,10,11,Hold 1,12.0,12.0,1,1,0,True,25.0,25.0,fee_aware
+D012,Urgent,21,5,16,5,11,13,Hold 2,18.0,18.0,0,2,0,True,56.0,56.0,hold
+D036,Urgent,21,8,14,8,13,14,Hold 1,15.0,15.0,0,1,0,True,46.0,46.0,hold
+D016,Urgent,22,0,2,0,2,2,Forced Release,6.0,6.0,0,0,0,True,18.0,18.0,hold
+D004,Flexible,22,0,9,0,4,4,Release,12.0,12.0,0,0,0,True,24.0,24.0,reciprocal
+D031,Flexible,22,0,5,0,3,5,Hold 2,9.0,9.0,0,2,0,True,22.0,22.0,hold
+D006,Urgent,22,0,8,0,4,6,Hold 2,12.0,12.0,0,2,0,True,38.0,38.0,fee_aware
+D021,Urgent,22,2,7,2,4,6,Hold 2,6.0,6.0,0,2,0,True,20.0,20.0,hold
+D002,Flexible,22,3,7,5,,7,Departure,12.0,6.0,2,0,0,False,10.0,10.0,fee_aware
+D003,Flexible,22,2,14,2,7,7,Release,15.0,15.0,0,0,0,True,30.0,30.0,reciprocal
+D024,Flexible,22,2,11,4,7,7,Release,9.0,9.0,2,0,0,True,16.0,16.0,release
+D023,Flexible,22,2,14,2,7,9,Hold 2,15.0,15.0,0,2,0,True,34.0,34.0,fee_aware
+D029,Urgent,22,3,14,6,12,12,Release,18.0,18.0,3,0,0,True,45.0,45.0,release
+D036,Urgent,22,4,16,6,11,13,Hold 2,15.0,15.0,2,2,0,True,41.0,41.0,hold
+D010,Flexible,22,8,16,8,14,16,Hold 2,18.0,18.0,0,2,0,True,40.0,40.0,hold
+D024,Flexible,23,0,3,0,3,3,Forced Release,9.0,9.0,0,0,0,True,18.0,18.0,release
+D005,Urgent,23,1,9,1,3,3,Release,6.0,6.0,0,0,0,True,18.0,18.0,reciprocal
+D038,Flexible,23,1,6,1,5,6,Hold 1,12.0,12.0,0,1,0,True,26.0,26.0,fee_aware
+D007,Flexible,23,5,14,5,7,7,Release,6.0,6.0,0,0,0,True,12.0,12.0,release
+D028,Flexible,23,4,14,4,8,8,Release,12.0,12.0,0,0,0,True,24.0,24.0,reciprocal
+D027,Flexible,23,5,11,5,8,8,Release,9.0,9.0,0,0,0,True,18.0,18.0,release
+D025,Flexible,23,8,16,8,10,10,Release,6.0,6.0,0,0,0,True,12.0,12.0,release
+D036,Urgent,23,7,11,7,10,11,Hold 1,9.0,9.0,0,1,0,True,28.0,28.0,hold
+D008,Urgent,23,7,12,7,11,11,Release,12.0,12.0,0,0,0,True,36.0,36.0,reciprocal
+D023,Flexible,23,7,15,7,9,11,Hold 2,6.0,6.0,0,2,0,True,16.0,16.0,fee_aware
+D039,Flexible,23,7,13,7,13,13,Forced Release,18.0,18.0,0,0,0,True,36.0,36.0,fee_aware
+D011,Flexible,23,8,15,8,12,13,Hold 1,12.0,12.0,0,1,0,True,26.0,26.0,reciprocal
+D008,Urgent,24,0,10,0,3,3,Release,9.0,9.0,0,0,0,True,27.0,27.0,reciprocal
+D029,Urgent,24,0,6,0,3,3,Release,9.0,9.0,0,0,0,True,27.0,27.0,release
+D021,Urgent,24,0,10,0,3,5,Hold 2,9.0,9.0,0,2,0,True,29.0,29.0,hold
+D007,Flexible,24,0,13,0,6,6,Release,18.0,18.0,0,0,0,True,36.0,36.0,release
+D011,Flexible,24,0,11,0,6,6,Release,18.0,18.0,0,0,0,True,36.0,36.0,reciprocal
+D030,Flexible,24,1,7,5,,7,Departure,18.0,6.0,4,0,0,False,8.0,8.0,fee_aware
+D019,Urgent,24,1,7,3,5,7,Hold 2,6.0,6.0,2,2,0,True,14.0,14.0,fee_aware
+D016,Urgent,24,1,7,1,6,7,Hold 1,15.0,15.0,0,1,0,True,46.0,46.0,hold
+D018,Urgent,24,1,9,3,9,9,Forced Release,18.0,18.0,2,0,0,True,48.0,48.0,release
+D039,Flexible,24,3,9,7,,9,Departure,15.0,6.0,4,0,0,False,8.0,8.0,fee_aware
+D031,Flexible,24,3,9,6,8,9,Hold 1,6.0,6.0,3,1,0,True,11.0,11.0,hold
+D026,Flexible,24,3,13,6,11,11,Release,15.0,15.0,3,0,0,True,27.0,27.0,reciprocal
+D028,Flexible,25,0,8,0,4,4,Release,12.0,12.0,0,0,0,True,24.0,24.0,reciprocal
+D040,Flexible,25,1,5,1,5,5,Forced Release,12.0,12.0,0,0,0,True,24.0,24.0,hold
+D006,Urgent,25,0,7,0,6,7,Hold 1,18.0,18.0,0,1,0,True,55.0,55.0,fee_aware
+D019,Urgent,25,1,7,1,5,7,Hold 2,12.0,12.0,0,2,0,True,38.0,38.0,fee_aware
+D034,Flexible,25,1,11,1,5,7,Hold 2,12.0,12.0,0,2,0,True,28.0,28.0,fee_aware
+D038,Flexible,25,2,9,2,6,8,Hold 2,12.0,12.0,0,2,0,True,28.0,28.0,fee_aware
+D010,Flexible,25,4,11,4,7,9,Hold 2,9.0,9.0,0,2,0,True,22.0,22.0,hold
+D018,Urgent,25,8,15,8,10,10,Release,6.0,6.0,0,0,0,True,18.0,18.0,release
+D039,Flexible,25,8,11,8,11,11,Forced Release,9.0,9.0,0,0,0,True,18.0,18.0,fee_aware
+D014,Urgent,25,6,13,7,11,11,Release,12.0,12.0,1,0,0,True,33.0,33.0,release
+D003,Flexible,25,8,16,8,11,11,Release,9.0,9.0,0,0,0,True,18.0,18.0,reciprocal
+D032,Flexible,25,5,16,5,10,12,Hold 2,15.0,15.0,0,2,0,True,34.0,34.0,fee_aware
+D027,Flexible,26,1,3,1,3,3,Forced Release,6.0,6.0,0,0,0,True,12.0,12.0,release
+D004,Flexible,26,0,5,0,4,4,Release,12.0,12.0,0,0,0,True,24.0,24.0,reciprocal
+D031,Flexible,26,3,5,3,5,5,Forced Release,6.0,6.0,0,0,0,True,12.0,12.0,hold
+D023,Flexible,26,0,6,0,6,6,Forced Release,18.0,18.0,0,0,0,True,36.0,36.0,fee_aware
+D016,Urgent,26,3,7,3,5,7,Hold 2,6.0,6.0,0,2,0,True,20.0,20.0,hold
+D002,Flexible,26,3,7,3,6,7,Hold 1,9.0,9.0,0,1,0,True,20.0,20.0,fee_aware
+D034,Flexible,26,1,13,1,6,8,Hold 2,15.0,15.0,0,2,0,True,34.0,34.0,fee_aware
+D015,Flexible,26,6,9,7,9,9,Forced Release,6.0,6.0,1,0,0,True,11.0,11.0,release
+D008,Urgent,26,5,14,5,10,10,Release,15.0,15.0,0,0,0,True,45.0,45.0,reciprocal
+D021,Urgent,26,5,14,5,10,12,Hold 2,15.0,15.0,0,2,0,True,47.0,47.0,hold
+D010,Flexible,26,6,16,6,11,13,Hold 2,15.0,15.0,0,2,0,True,34.0,34.0,hold
+D020,Flexible,26,7,14,7,13,14,Hold 1,18.0,18.0,0,1,0,True,38.0,38.0,hold
+D018,Urgent,27,1,10,1,4,4,Release,9.0,9.0,0,0,0,True,27.0,27.0,release
+D013,Urgent,27,0,9,0,5,5,Release,15.0,15.0,0,0,0,True,45.0,45.0,release
+D040,Flexible,27,3,7,5,,7,Departure,9.0,6.0,2,0,0,False,10.0,10.0,hold
+D015,Flexible,27,2,9,2,7,7,Release,15.0,15.0,0,0,0,True,30.0,30.0,release
+D021,Urgent,27,1,8,1,6,8,Hold 2,15.0,15.0,0,2,0,True,47.0,47.0,hold
+D031,Flexible,27,3,8,4,6,8,Hold 2,6.0,6.0,1,2,0,True,15.0,15.0,hold
+D036,Urgent,27,0,12,0,6,8,Hold 2,18.0,18.0,0,2,0,True,56.0,56.0,hold
+D032,Flexible,27,1,13,1,6,8,Hold 2,15.0,15.0,0,2,0,True,34.0,34.0,fee_aware
+D011,Flexible,27,4,14,7,10,10,Release,9.0,9.0,3,0,0,True,15.0,15.0,reciprocal
+D006,Urgent,27,7,11,7,11,11,Forced Release,12.0,12.0,0,0,0,True,36.0,36.0,fee_aware
+D009,Flexible,27,8,16,8,12,14,Hold 2,12.0,12.0,0,2,0,True,28.0,28.0,hold
+D034,Flexible,27,7,16,8,13,15,Hold 2,15.0,15.0,1,2,0,True,33.0,33.0,fee_aware
+D031,Flexible,28,1,5,1,4,5,Hold 1,9.0,9.0,0,1,0,True,20.0,20.0,hold
+D022,Flexible,28,0,12,0,6,6,Release,18.0,18.0,0,0,0,True,36.0,36.0,reciprocal
+D024,Flexible,28,3,9,3,7,7,Release,12.0,12.0,0,0,0,True,24.0,24.0,release
+D026,Flexible,28,3,9,3,6,7,Hold 1,9.0,9.0,0,1,0,True,20.0,20.0,reciprocal
+D035,Urgent,28,2,8,2,8,8,Forced Release,18.0,18.0,0,0,0,True,54.0,54.0,fee_aware
+D011,Flexible,28,3,12,3,8,9,Hold 1,15.0,15.0,0,1,0,True,32.0,32.0,reciprocal
+D008,Urgent,28,6,13,6,11,11,Release,15.0,15.0,0,0,0,True,45.0,45.0,reciprocal
+D019,Urgent,28,5,12,5,10,12,Hold 2,15.0,15.0,0,2,0,True,47.0,47.0,fee_aware
+D029,Urgent,28,7,14,8,12,12,Release,12.0,12.0,1,0,0,True,33.0,33.0,release
+D002,Flexible,28,7,13,7,12,13,Hold 1,15.0,15.0,0,1,0,True,32.0,32.0,fee_aware
+D034,Flexible,28,6,16,7,12,14,Hold 2,15.0,15.0,1,2,0,True,33.0,33.0,fee_aware
+D012,Urgent,28,8,16,9,13,15,Hold 2,12.0,12.0,1,2,0,True,35.0,35.0,hold
+D017,Urgent,29,1,5,1,4,4,Release,9.0,9.0,0,0,0,True,27.0,27.0,release
+D003,Flexible,29,1,10,1,5,5,Release,12.0,12.0,0,0,0,True,24.0,24.0,reciprocal
+D005,Urgent,29,1,12,1,5,5,Release,12.0,12.0,0,0,0,True,36.0,36.0,reciprocal
+D010,Flexible,29,1,6,1,5,6,Hold 1,12.0,12.0,0,1,0,True,26.0,26.0,hold
+D023,Flexible,29,0,11,0,4,6,Hold 2,12.0,12.0,0,2,0,True,28.0,28.0,fee_aware
+D030,Flexible,29,4,7,4,7,7,Forced Release,9.0,9.0,0,0,0,True,18.0,18.0,fee_aware
+D032,Flexible,29,1,9,1,7,9,Hold 2,18.0,18.0,0,2,0,True,40.0,40.0,fee_aware
+D029,Urgent,29,6,14,7,10,10,Release,9.0,9.0,1,0,0,True,24.0,24.0,release
+D008,Urgent,29,5,15,5,11,11,Release,18.0,18.0,0,0,0,True,54.0,54.0,reciprocal
+D018,Urgent,29,5,16,6,11,11,Release,15.0,15.0,1,0,0,True,42.0,42.0,release
+D022,Flexible,29,6,15,6,11,11,Release,15.0,15.0,0,0,0,True,30.0,30.0,reciprocal
+D039,Flexible,29,4,14,5,10,12,Hold 2,15.0,15.0,1,2,0,True,33.0,33.0,fee_aware
+D027,Flexible,30,1,5,1,3,3,Release,6.0,6.0,0,0,0,True,12.0,12.0,release
+D021,Urgent,30,0,4,0,2,4,Hold 2,6.0,6.0,0,2,0,True,20.0,20.0,hold
+D013,Urgent,30,0,6,0,6,6,Forced Release,18.0,18.0,0,0,0,True,54.0,54.0,release
+D002,Flexible,30,2,6,2,5,6,Hold 1,9.0,9.0,0,1,0,True,20.0,20.0,fee_aware
+D009,Flexible,30,0,9,0,4,6,Hold 2,12.0,12.0,0,2,0,True,28.0,28.0,hold
+D036,Urgent,30,1,10,1,5,7,Hold 2,12.0,12.0,0,2,0,True,38.0,38.0,hold
+D023,Flexible,30,3,9,4,7,9,Hold 2,9.0,9.0,1,2,0,True,21.0,21.0,fee_aware
+D006,Urgent,30,3,10,3,7,9,Hold 2,12.0,12.0,0,2,0,True,38.0,38.0,fee_aware
+D019,Urgent,30,4,10,6,,10,Departure,18.0,12.0,2,0,0,False,30.0,30.0,fee_aware
+D011,Flexible,30,7,12,7,11,11,Release,12.0,12.0,0,0,0,True,24.0,24.0,reciprocal
+D012,Urgent,30,6,15,6,9,11,Hold 2,9.0,9.0,0,2,0,True,29.0,29.0,hold
+D037,Urgent,30,6,12,6,12,12,Forced Release,18.0,18.0,0,0,0,True,54.0,54.0,reciprocal
+D022,Flexible,31,2,8,2,5,5,Release,9.0,9.0,0,0,0,True,18.0,18.0,reciprocal
+D015,Flexible,31,3,8,3,5,5,Release,6.0,6.0,0,0,0,True,12.0,12.0,release
+D030,Flexible,31,0,7,0,3,5,Hold 2,9.0,9.0,0,2,0,True,22.0,22.0,fee_aware
+D003,Flexible,31,4,6,5,,6,Departure,6.0,3.0,1,0,0,False,5.0,5.0,reciprocal
+D011,Flexible,31,3,11,3,8,8,Release,15.0,15.0,0,0,0,True,30.0,30.0,reciprocal
+D032,Flexible,31,2,11,2,8,10,Hold 2,18.0,18.0,0,2,0,True,40.0,40.0,fee_aware
+D034,Flexible,31,2,14,2,8,10,Hold 2,18.0,18.0,0,2,0,True,40.0,40.0,fee_aware
+D027,Flexible,31,3,14,5,11,11,Release,18.0,18.0,2,0,0,True,34.0,34.0,release
+D025,Flexible,31,4,16,5,11,11,Release,18.0,18.0,1,0,0,True,35.0,35.0,release
+D031,Flexible,31,5,13,8,,13,Departure,18.0,15.0,3,0,0,False,27.0,27.0,hold
+D035,Urgent,31,4,14,6,11,13,Hold 2,15.0,15.0,2,2,0,True,41.0,41.0,fee_aware
+D019,Urgent,31,8,16,10,15,16,Hold 1,15.0,15.0,2,1,0,True,40.0,40.0,fee_aware
+D019,Urgent,32,0,4,0,3,4,Hold 1,9.0,9.0,0,1,0,True,28.0,28.0,fee_aware
+D014,Urgent,32,0,11,0,4,4,Release,12.0,12.0,0,0,0,True,36.0,36.0,release
+D024,Flexible,32,2,6,2,4,4,Release,6.0,6.0,0,0,0,True,12.0,12.0,release
+D023,Flexible,32,4,7,4,7,7,Forced Release,9.0,9.0,0,0,0,True,18.0,18.0,fee_aware
+D039,Flexible,32,2,8,2,7,8,Hold 1,15.0,15.0,0,1,0,True,32.0,32.0,fee_aware
+D018,Urgent,32,3,11,4,8,8,Release,12.0,12.0,1,0,0,True,33.0,33.0,release
+D022,Flexible,32,5,11,5,8,8,Release,9.0,9.0,0,0,0,True,18.0,18.0,reciprocal
+D038,Flexible,32,0,11,0,6,8,Hold 2,18.0,18.0,0,2,0,True,40.0,40.0,fee_aware
+D010,Flexible,32,3,10,3,7,9,Hold 2,12.0,12.0,0,2,0,True,28.0,28.0,hold
+D015,Flexible,32,6,14,7,10,10,Release,9.0,9.0,1,0,0,True,17.0,17.0,release
+D008,Urgent,32,8,16,8,14,14,Release,18.0,18.0,0,0,0,True,54.0,54.0,reciprocal
+D016,Urgent,32,6,16,8,13,15,Hold 2,15.0,15.0,2,2,0,True,41.0,41.0,hold
+D020,Flexible,33,0,3,0,2,3,Hold 1,6.0,6.0,0,1,0,True,14.0,14.0,hold
+D001,Flexible,33,2,10,2,4,4,Release,6.0,6.0,0,0,0,True,12.0,12.0,reciprocal
+D029,Urgent,33,0,10,0,5,5,Release,15.0,15.0,0,0,0,True,45.0,45.0,release
+D037,Urgent,33,1,10,1,5,5,Release,12.0,12.0,0,0,0,True,36.0,36.0,reciprocal
+D008,Urgent,33,2,11,2,5,5,Release,9.0,9.0,0,0,0,True,27.0,27.0,reciprocal
+D031,Flexible,33,1,7,1,6,7,Hold 1,15.0,15.0,0,1,0,True,32.0,32.0,hold
+D015,Flexible,33,8,13,8,10,10,Release,6.0,6.0,0,0,0,True,12.0,12.0,release
+D012,Urgent,33,2,13,3,8,10,Hold 2,15.0,15.0,1,2,0,True,44.0,44.0,hold
+D035,Urgent,33,5,11,5,9,11,Hold 2,12.0,12.0,0,2,0,True,38.0,38.0,fee_aware
+D021,Urgent,33,6,12,6,10,12,Hold 2,12.0,12.0,0,2,0,True,38.0,38.0,hold
+D030,Flexible,33,7,16,7,13,15,Hold 2,18.0,18.0,0,2,0,True,40.0,40.0,fee_aware
+D038,Flexible,33,7,16,7,13,15,Hold 2,18.0,18.0,0,2,0,True,40.0,40.0,fee_aware
+D002,Flexible,34,0,4,0,4,4,Forced Release,12.0,12.0,0,0,0,True,24.0,24.0,fee_aware
+D012,Urgent,34,0,4,0,4,4,Forced Release,12.0,12.0,0,0,0,True,36.0,36.0,hold
+D004,Flexible,34,2,8,2,6,6,Release,12.0,12.0,0,0,0,True,24.0,24.0,reciprocal
+D039,Flexible,34,4,7,4,6,7,Hold 1,6.0,6.0,0,1,0,True,14.0,14.0,fee_aware
+D010,Flexible,34,1,10,1,5,7,Hold 2,12.0,12.0,0,2,0,True,28.0,28.0,hold
+D006,Urgent,34,2,10,2,5,7,Hold 2,9.0,9.0,0,2,0,True,29.0,29.0,fee_aware
+D016,Urgent,34,0,8,0,6,8,Hold 2,18.0,18.0,0,2,0,True,56.0,56.0,hold
+D005,Urgent,34,6,13,6,8,8,Release,6.0,6.0,0,0,0,True,18.0,18.0,reciprocal
+D025,Flexible,34,7,14,7,9,9,Release,6.0,6.0,0,0,0,True,12.0,12.0,release
+D040,Flexible,34,7,16,7,9,11,Hold 2,6.0,6.0,0,2,0,True,16.0,16.0,hold
+D014,Urgent,34,8,16,8,12,12,Release,12.0,12.0,0,0,0,True,36.0,36.0,release
+D009,Flexible,34,7,16,7,11,13,Hold 2,12.0,12.0,0,2,0,True,28.0,28.0,hold
+D037,Urgent,35,1,4,1,3,3,Release,6.0,6.0,0,0,0,True,18.0,18.0,reciprocal
+D029,Urgent,35,1,11,1,5,5,Release,12.0,12.0,0,0,0,True,36.0,36.0,release
+D011,Flexible,35,3,11,3,6,6,Release,9.0,9.0,0,0,0,True,18.0,18.0,reciprocal
+D019,Urgent,35,1,11,1,4,6,Hold 2,9.0,9.0,0,2,0,True,29.0,29.0,fee_aware
+D009,Flexible,35,0,7,0,6,7,Hold 1,18.0,18.0,0,1,0,True,38.0,38.0,hold
+D022,Flexible,35,4,7,5,7,7,Forced Release,6.0,6.0,1,0,0,True,11.0,11.0,reciprocal
+D032,Flexible,35,4,7,6,,7,Departure,6.0,3.0,2,0,0,False,4.0,4.0,fee_aware
+D002,Flexible,35,0,9,0,6,8,Hold 2,18.0,18.0,0,2,0,True,40.0,40.0,fee_aware
+D036,Urgent,35,1,10,1,6,8,Hold 2,15.0,15.0,0,2,0,True,47.0,47.0,hold
+D007,Flexible,35,5,14,6,10,10,Release,12.0,12.0,1,0,0,True,23.0,23.0,release
+D015,Flexible,35,7,16,7,12,12,Release,15.0,15.0,0,0,0,True,30.0,30.0,release
+D031,Flexible,35,8,14,8,14,14,Forced Release,18.0,18.0,0,0,0,True,36.0,36.0,hold
+D007,Flexible,36,0,4,0,2,2,Release,6.0,6.0,0,0,0,True,12.0,12.0,release
+D018,Urgent,36,0,12,0,5,5,Release,15.0,15.0,0,0,0,True,45.0,45.0,release
+D022,Flexible,36,2,10,2,6,6,Release,12.0,12.0,0,0,0,True,24.0,24.0,reciprocal
+D029,Urgent,36,2,10,2,7,7,Release,15.0,15.0,0,0,0,True,45.0,45.0,release
+D009,Flexible,36,2,8,2,5,7,Hold 2,9.0,9.0,0,2,0,True,22.0,22.0,hold
+D026,Flexible,36,3,16,3,9,9,Release,18.0,18.0,0,0,0,True,36.0,36.0,reciprocal
+D034,Flexible,36,5,12,5,11,12,Hold 1,18.0,18.0,0,1,0,True,38.0,38.0,fee_aware
+D019,Urgent,36,5,12,5,10,12,Hold 2,15.0,15.0,0,2,0,True,47.0,47.0,fee_aware
+D025,Flexible,36,8,12,8,12,12,Forced Release,12.0,12.0,0,0,0,True,24.0,24.0,release
+D016,Urgent,36,7,13,7,11,13,Hold 2,12.0,12.0,0,2,0,True,38.0,38.0,hold
+D032,Flexible,36,8,13,9,11,13,Hold 2,6.0,6.0,1,2,0,True,15.0,15.0,fee_aware
+D010,Flexible,36,7,16,7,13,15,Hold 2,18.0,18.0,0,2,0,True,40.0,40.0,hold
+D021,Urgent,37,0,4,0,4,4,Forced Release,12.0,12.0,0,0,0,True,36.0,36.0,hold
+D020,Flexible,37,0,5,0,3,5,Hold 2,9.0,9.0,0,2,0,True,22.0,22.0,hold
+D001,Flexible,37,0,10,0,5,5,Release,15.0,15.0,0,0,0,True,30.0,30.0,reciprocal
+D027,Flexible,37,2,9,2,5,5,Release,9.0,9.0,0,0,0,True,18.0,18.0,release
+D015,Flexible,37,3,14,4,8,8,Release,12.0,12.0,1,0,0,True,23.0,23.0,release
+D039,Flexible,37,1,13,1,7,9,Hold 2,18.0,18.0,0,2,0,True,40.0,40.0,fee_aware
+D040,Flexible,37,1,13,1,7,9,Hold 2,18.0,18.0,0,2,0,True,40.0,40.0,hold
+D035,Urgent,37,4,14,5,8,10,Hold 2,9.0,9.0,1,2,0,True,26.0,26.0,fee_aware
+D016,Urgent,37,3,14,5,9,11,Hold 2,12.0,12.0,2,2,0,True,32.0,32.0,hold
+D012,Urgent,37,5,14,5,9,11,Hold 2,12.0,12.0,0,2,0,True,38.0,38.0,hold
+D019,Urgent,37,7,12,9,,12,Departure,15.0,9.0,2,0,0,False,21.0,21.0,fee_aware
+D037,Urgent,37,6,15,8,12,12,Release,12.0,12.0,2,0,0,True,30.0,30.0,reciprocal
+D008,Urgent,38,1,4,1,4,4,Forced Release,9.0,9.0,0,0,0,True,27.0,27.0,reciprocal
+D026,Flexible,38,1,6,1,4,4,Release,9.0,9.0,0,0,0,True,18.0,18.0,reciprocal
+D018,Urgent,38,0,12,0,5,5,Release,15.0,15.0,0,0,0,True,45.0,45.0,release
+D014,Urgent,38,1,12,1,6,6,Release,15.0,15.0,0,0,0,True,45.0,45.0,release
+D001,Flexible,38,2,8,2,7,7,Release,15.0,15.0,0,0,0,True,30.0,30.0,reciprocal
+D013,Urgent,38,3,9,5,7,7,Release,6.0,6.0,2,0,0,True,12.0,12.0,release
+D003,Flexible,38,2,9,2,6,7,Hold 1,12.0,12.0,0,1,0,True,26.0,26.0,reciprocal
+D038,Flexible,38,2,8,4,6,8,Hold 2,6.0,6.0,2,2,0,True,14.0,14.0,fee_aware
+D007,Flexible,38,2,12,4,9,9,Release,15.0,15.0,2,0,0,True,28.0,28.0,release
+D021,Urgent,38,4,11,7,9,11,Hold 2,6.0,6.0,3,2,0,True,11.0,11.0,hold
+D019,Urgent,38,4,13,6,9,11,Hold 2,9.0,9.0,2,2,0,True,23.0,23.0,fee_aware
+D040,Flexible,38,4,12,7,10,12,Hold 2,9.0,9.0,3,2,0,True,19.0,19.0,hold
+D008,Urgent,39,0,6,0,6,6,Forced Release,18.0,18.0,0,0,0,True,54.0,54.0,reciprocal
+D022,Flexible,39,3,10,3,6,6,Release,9.0,9.0,0,0,0,True,18.0,18.0,reciprocal
+D010,Flexible,39,3,7,3,5,7,Hold 2,6.0,6.0,0,2,0,True,16.0,16.0,hold
+D009,Flexible,39,4,7,,,7,Unserved,9.0,0.0,3,0,0,False,-3.0,-3.0,hold
+D007,Flexible,39,2,8,2,7,7,Release,15.0,15.0,0,0,0,True,30.0,30.0,release
+D004,Flexible,39,3,8,3,7,7,Release,12.0,12.0,0,0,0,True,24.0,24.0,reciprocal
+D028,Flexible,39,3,9,6,8,8,Release,6.0,6.0,3,0,0,True,9.0,9.0,reciprocal
+D031,Flexible,39,4,9,7,,9,Departure,15.0,6.0,3,0,0,False,9.0,9.0,hold
+D002,Flexible,39,1,13,1,7,9,Hold 2,18.0,18.0,0,2,0,True,40.0,40.0,fee_aware
+D040,Flexible,39,3,10,6,10,10,Forced Release,12.0,12.0,3,0,0,True,21.0,21.0,hold
+D026,Flexible,39,8,16,8,11,11,Release,9.0,9.0,0,0,0,True,18.0,18.0,reciprocal
+D024,Flexible,39,5,14,7,12,12,Release,15.0,15.0,2,0,0,True,28.0,28.0,release
+D022,Flexible,40,1,5,1,3,3,Release,6.0,6.0,0,0,0,True,12.0,12.0,reciprocal
+D027,Flexible,40,3,7,3,5,5,Release,6.0,6.0,0,0,0,True,12.0,12.0,release
+D001,Flexible,40,1,9,1,7,7,Release,18.0,18.0,0,0,0,True,36.0,36.0,reciprocal
+D028,Flexible,40,0,8,0,6,7,Hold 1,18.0,18.0,0,1,0,True,38.0,38.0,reciprocal
+D030,Flexible,40,4,8,4,8,8,Forced Release,12.0,12.0,0,0,0,True,24.0,24.0,fee_aware
+D034,Flexible,40,5,14,5,7,9,Hold 2,6.0,6.0,0,2,0,True,16.0,16.0,fee_aware
+D038,Flexible,40,3,16,3,9,11,Hold 2,18.0,18.0,0,2,0,True,40.0,40.0,fee_aware
+D021,Urgent,40,4,14,4,10,12,Hold 2,18.0,18.0,0,2,0,True,56.0,56.0,hold
+D019,Urgent,40,7,13,7,12,13,Hold 1,15.0,15.0,0,1,0,True,46.0,46.0,fee_aware
+D008,Urgent,40,8,13,8,13,13,Forced Release,15.0,15.0,0,0,0,True,45.0,45.0,reciprocal
+D024,Flexible,40,8,16,9,13,13,Release,12.0,12.0,1,0,0,True,23.0,23.0,release
+D031,Flexible,40,7,14,7,12,14,Hold 2,15.0,15.0,0,2,0,True,34.0,34.0,hold
+D018,Urgent,41,1,8,1,5,5,Release,12.0,12.0,0,0,0,True,36.0,36.0,release
+D028,Flexible,41,3,12,3,6,6,Release,9.0,9.0,0,0,0,True,18.0,18.0,reciprocal
+D039,Flexible,41,1,10,1,6,8,Hold 2,15.0,15.0,0,2,0,True,34.0,34.0,fee_aware
+D037,Urgent,41,4,14,4,9,9,Release,15.0,15.0,0,0,0,True,45.0,45.0,reciprocal
+D015,Flexible,41,5,14,6,9,9,Release,9.0,9.0,1,0,0,True,17.0,17.0,release
+D038,Flexible,41,4,13,5,7,9,Hold 2,6.0,6.0,1,2,0,True,15.0,15.0,fee_aware
+D040,Flexible,41,3,10,3,9,10,Hold 1,18.0,18.0,0,1,0,True,38.0,38.0,hold
+D029,Urgent,41,7,11,9,11,11,Forced Release,6.0,6.0,2,0,0,True,12.0,12.0,release
+D002,Flexible,41,4,13,4,10,12,Hold 2,18.0,18.0,0,2,0,True,40.0,40.0,fee_aware
+D033,Flexible,41,5,13,8,13,13,Forced Release,15.0,15.0,3,0,0,True,27.0,27.0,hold
+D014,Urgent,41,7,15,9,13,13,Release,12.0,12.0,2,0,0,True,30.0,30.0,release
+D024,Flexible,41,7,16,9,15,15,Release,18.0,18.0,2,0,0,True,34.0,34.0,release
+D011,Flexible,42,2,11,2,5,5,Release,9.0,9.0,0,0,0,True,18.0,18.0,reciprocal
+D021,Urgent,42,1,8,1,3,5,Hold 2,6.0,6.0,0,2,0,True,20.0,20.0,hold
+D033,Flexible,42,0,10,0,4,6,Hold 2,12.0,12.0,0,2,0,True,28.0,28.0,hold
+D016,Urgent,42,2,9,2,4,6,Hold 2,6.0,6.0,0,2,0,True,20.0,20.0,hold
+D040,Flexible,42,1,8,1,6,8,Hold 2,15.0,15.0,0,2,0,True,34.0,34.0,hold
+D034,Flexible,42,1,12,1,6,8,Hold 2,15.0,15.0,0,2,0,True,34.0,34.0,fee_aware
+D037,Urgent,42,2,10,5,,10,Departure,18.0,15.0,3,0,0,False,36.0,36.0,reciprocal
+D029,Urgent,42,4,11,6,10,10,Release,12.0,12.0,2,0,0,True,30.0,30.0,release
+D012,Urgent,42,5,11,8,10,11,Hold 1,6.0,6.0,3,1,0,True,10.0,10.0,hold
+D022,Flexible,42,4,14,6,11,11,Release,15.0,15.0,2,0,0,True,28.0,28.0,reciprocal
+D010,Flexible,42,3,15,5,10,12,Hold 2,15.0,15.0,2,2,0,True,32.0,32.0,hold
+D001,Flexible,42,5,15,8,14,14,Release,18.0,18.0,3,0,0,True,33.0,33.0,reciprocal
+D003,Flexible,43,0,5,0,2,2,Release,6.0,6.0,0,0,0,True,12.0,12.0,reciprocal
+D028,Flexible,43,1,10,1,4,4,Release,9.0,9.0,0,0,0,True,18.0,18.0,reciprocal
+D014,Urgent,43,1,11,1,5,5,Release,12.0,12.0,0,0,0,True,36.0,36.0,release
+D010,Flexible,43,2,6,2,5,6,Hold 1,9.0,9.0,0,1,0,True,20.0,20.0,hold
+D022,Flexible,43,2,6,5,,6,Departure,12.0,3.0,3,0,0,False,3.0,3.0,reciprocal
+D038,Flexible,43,0,10,0,4,6,Hold 2,12.0,12.0,0,2,0,True,28.0,28.0,fee_aware
+D007,Flexible,43,2,13,2,8,8,Release,18.0,18.0,0,0,0,True,36.0,36.0,release
+D033,Flexible,43,1,13,1,6,8,Hold 2,15.0,15.0,0,2,0,True,34.0,34.0,hold
+D017,Urgent,43,4,10,6,,10,Departure,18.0,12.0,2,0,0,False,30.0,30.0,release
+D012,Urgent,43,2,12,4,9,11,Hold 2,15.0,15.0,2,2,0,True,41.0,41.0,hold
+D008,Urgent,43,5,16,6,12,12,Release,18.0,18.0,1,0,0,True,51.0,51.0,reciprocal
+D006,Urgent,43,4,14,6,10,12,Hold 2,12.0,12.0,2,2,0,True,32.0,32.0,fee_aware
+D022,Flexible,44,0,2,0,2,2,Forced Release,6.0,6.0,0,0,0,True,12.0,12.0,reciprocal
+D033,Flexible,44,1,3,1,3,3,Forced Release,6.0,6.0,0,0,0,True,12.0,12.0,hold
+D012,Urgent,44,1,4,1,3,4,Hold 1,6.0,6.0,0,1,0,True,19.0,19.0,hold
+D005,Urgent,44,1,7,1,6,6,Release,15.0,15.0,0,0,0,True,45.0,45.0,reciprocal
+D024,Flexible,44,2,13,2,6,6,Release,12.0,12.0,0,0,0,True,24.0,24.0,release
+D027,Flexible,44,4,14,4,8,8,Release,12.0,12.0,0,0,0,True,24.0,24.0,release
+D021,Urgent,44,2,10,2,6,8,Hold 2,12.0,12.0,0,2,0,True,38.0,38.0,hold
+D006,Urgent,44,8,10,8,10,10,Forced Release,6.0,6.0,0,0,0,True,18.0,18.0,fee_aware
+D009,Flexible,44,4,11,4,9,11,Hold 2,15.0,15.0,0,2,0,True,34.0,34.0,hold
+D030,Flexible,44,6,16,6,10,12,Hold 2,12.0,12.0,0,2,0,True,28.0,28.0,fee_aware
+D028,Flexible,44,7,16,7,13,13,Release,18.0,18.0,0,0,0,True,36.0,36.0,reciprocal
+D037,Urgent,44,8,15,8,14,15,Hold 1,18.0,18.0,0,1,0,True,55.0,55.0,reciprocal
+D005,Urgent,45,3,9,3,5,5,Release,6.0,6.0,0,0,0,True,18.0,18.0,reciprocal
+D019,Urgent,45,1,9,1,3,5,Hold 2,6.0,6.0,0,2,0,True,20.0,20.0,fee_aware
+D018,Urgent,45,1,9,1,6,6,Release,15.0,15.0,0,0,0,True,45.0,45.0,release
+D003,Flexible,45,3,7,3,6,6,Release,9.0,9.0,0,0,0,True,18.0,18.0,reciprocal
+D004,Flexible,45,2,10,2,8,8,Release,18.0,18.0,0,0,0,True,36.0,36.0,reciprocal
+D034,Flexible,45,3,9,5,,9,Departure,15.0,12.0,2,0,0,False,22.0,22.0,fee_aware
+D035,Urgent,45,4,10,6,9,10,Hold 1,9.0,9.0,2,1,0,True,22.0,22.0,fee_aware
+D020,Flexible,45,3,15,3,9,11,Hold 2,18.0,18.0,0,2,0,True,40.0,40.0,hold
+D001,Flexible,45,4,16,5,10,11,Hold 1,15.0,15.0,1,1,0,True,31.0,31.0,reciprocal
+D037,Urgent,45,4,12,8,12,12,Forced Release,12.0,12.0,4,0,0,True,24.0,24.0,reciprocal
+D024,Flexible,45,4,16,6,12,12,Release,18.0,18.0,2,0,0,True,34.0,34.0,release
+D023,Flexible,45,6,15,9,13,15,Hold 2,12.0,12.0,3,2,0,True,25.0,25.0,fee_aware
+D018,Urgent,46,3,5,,,5,Unserved,6.0,0.0,2,0,0,False,-6.0,-6.0,release
+D015,Flexible,46,2,11,2,5,5,Release,9.0,9.0,0,0,0,True,18.0,18.0,release
+D031,Flexible,46,0,8,0,3,5,Hold 2,9.0,9.0,0,2,0,True,22.0,22.0,hold
+D028,Flexible,46,1,10,1,6,6,Release,15.0,15.0,0,0,0,True,30.0,30.0,reciprocal
+D038,Flexible,46,2,11,2,5,7,Hold 2,9.0,9.0,0,2,0,True,22.0,22.0,fee_aware
+D039,Flexible,46,0,9,0,6,8,Hold 2,18.0,18.0,0,2,0,True,40.0,40.0,fee_aware
+D034,Flexible,46,2,13,2,6,8,Hold 2,12.0,12.0,0,2,0,True,28.0,28.0,fee_aware
+D016,Urgent,46,5,10,6,,10,Departure,15.0,12.0,1,0,0,False,33.0,33.0,hold
+D005,Urgent,46,4,15,5,11,11,Release,18.0,18.0,1,0,0,True,51.0,51.0,reciprocal
+D030,Flexible,46,6,12,8,10,12,Hold 2,6.0,6.0,2,2,0,True,14.0,14.0,fee_aware
+D033,Flexible,46,4,16,5,11,13,Hold 2,18.0,18.0,1,2,0,True,39.0,39.0,hold
+D023,Flexible,46,5,14,7,11,13,Hold 2,12.0,12.0,2,2,0,True,26.0,26.0,fee_aware
+D020,Flexible,47,1,5,1,4,5,Hold 1,9.0,9.0,0,1,0,True,20.0,20.0,hold
+D036,Urgent,47,2,6,2,4,6,Hold 2,6.0,6.0,0,2,0,True,20.0,20.0,hold
+D037,Urgent,47,4,7,5,7,7,Forced Release,6.0,6.0,1,0,0,True,15.0,15.0,reciprocal
+D027,Flexible,47,3,13,3,7,7,Release,12.0,12.0,0,0,0,True,24.0,24.0,release
+D008,Urgent,47,4,16,4,9,9,Release,15.0,15.0,0,0,0,True,45.0,45.0,reciprocal
+D028,Flexible,47,5,11,7,9,9,Release,6.0,6.0,2,0,0,True,10.0,10.0,reciprocal
+D019,Urgent,47,2,12,2,7,9,Hold 2,15.0,15.0,0,2,0,True,47.0,47.0,fee_aware
+D033,Flexible,47,3,13,3,7,9,Hold 2,12.0,12.0,0,2,0,True,28.0,28.0,hold
+D038,Flexible,47,4,11,6,11,11,Forced Release,15.0,15.0,2,0,0,True,28.0,28.0,fee_aware
+D022,Flexible,47,6,11,9,11,11,Forced Release,6.0,6.0,3,0,0,True,9.0,9.0,reciprocal
+D004,Flexible,47,5,14,7,12,12,Release,15.0,15.0,2,0,0,True,28.0,28.0,reciprocal
+D039,Flexible,47,8,16,9,15,16,Hold 1,18.0,18.0,1,1,0,True,37.0,37.0,fee_aware
+D019,Urgent,48,0,5,0,2,4,Hold 2,6.0,6.0,0,2,0,True,20.0,20.0,fee_aware
+D023,Flexible,48,0,5,0,3,5,Hold 2,9.0,9.0,0,2,0,True,22.0,22.0,fee_aware
+D013,Urgent,48,1,11,1,6,6,Release,15.0,15.0,0,0,0,True,45.0,45.0,release
+D017,Urgent,48,1,12,1,7,7,Release,18.0,18.0,0,0,0,True,54.0,54.0,release
+D004,Flexible,48,3,9,3,7,7,Release,12.0,12.0,0,0,0,True,24.0,24.0,reciprocal
+D003,Flexible,48,4,15,4,8,8,Release,12.0,12.0,0,0,0,True,24.0,24.0,reciprocal
+D030,Flexible,48,3,11,3,9,11,Hold 2,18.0,18.0,0,2,0,True,40.0,40.0,fee_aware
+D036,Urgent,48,4,15,5,9,11,Hold 2,12.0,12.0,1,2,0,True,35.0,35.0,hold
+D007,Flexible,48,5,16,6,12,12,Release,18.0,18.0,1,0,0,True,35.0,35.0,release
+D026,Flexible,48,7,16,7,12,12,Release,15.0,15.0,0,0,0,True,30.0,30.0,reciprocal
+D020,Flexible,48,8,15,8,13,15,Hold 2,15.0,15.0,0,2,0,True,34.0,34.0,hold
+D006,Urgent,48,8,16,8,13,15,Hold 2,15.0,15.0,0,2,0,True,47.0,47.0,fee_aware
+D005,Urgent,49,1,8,1,5,5,Release,12.0,12.0,0,0,0,True,36.0,36.0,reciprocal
+D006,Urgent,49,0,10,0,4,6,Hold 2,12.0,12.0,0,2,0,True,38.0,38.0,fee_aware
+D037,Urgent,49,3,7,5,7,7,Forced Release,6.0,6.0,2,0,0,True,12.0,12.0,reciprocal
+D026,Flexible,49,1,9,1,7,7,Release,18.0,18.0,0,0,0,True,36.0,36.0,reciprocal
+D030,Flexible,49,0,12,0,5,7,Hold 2,15.0,15.0,0,2,0,True,34.0,34.0,fee_aware
+D035,Urgent,49,1,13,1,6,8,Hold 2,15.0,15.0,0,2,0,True,47.0,47.0,fee_aware
+D031,Flexible,49,1,13,1,7,9,Hold 2,18.0,18.0,0,2,0,True,40.0,40.0,hold
+D013,Urgent,49,6,10,7,10,10,Forced Release,9.0,9.0,1,0,0,True,24.0,24.0,release
+D012,Urgent,49,6,10,6,9,10,Hold 1,9.0,9.0,0,1,0,True,28.0,28.0,hold
+D017,Urgent,49,6,12,7,10,10,Release,9.0,9.0,1,0,0,True,24.0,24.0,release
+D007,Flexible,49,7,16,8,13,13,Release,15.0,15.0,1,0,0,True,29.0,29.0,release
+D033,Flexible,49,6,16,7,11,13,Hold 2,12.0,12.0,1,2,0,True,27.0,27.0,hold
+D017,Urgent,50,0,5,0,4,4,Release,12.0,12.0,0,0,0,True,36.0,36.0,release
+D028,Flexible,50,0,8,0,4,4,Release,12.0,12.0,0,0,0,True,24.0,24.0,reciprocal
+D004,Flexible,50,1,11,1,6,6,Release,15.0,15.0,0,0,0,True,30.0,30.0,reciprocal
+D029,Urgent,50,3,9,4,7,7,Release,9.0,9.0,1,0,0,True,24.0,24.0,release
+D006,Urgent,50,1,8,1,7,8,Hold 1,18.0,18.0,0,1,0,True,55.0,55.0,fee_aware
+D010,Flexible,50,3,8,3,7,8,Hold 1,12.0,12.0,0,1,0,True,26.0,26.0,hold
+D021,Urgent,50,2,12,2,7,9,Hold 2,15.0,15.0,0,2,0,True,47.0,47.0,hold
+D032,Flexible,50,3,11,4,9,11,Hold 2,15.0,15.0,1,2,0,True,33.0,33.0,fee_aware
+D035,Urgent,50,4,14,6,11,13,Hold 2,15.0,15.0,2,2,0,True,41.0,41.0,fee_aware
+D007,Flexible,50,6,16,8,14,14,Release,18.0,18.0,2,0,0,True,34.0,34.0,release
+D016,Urgent,50,7,15,8,14,15,Hold 1,18.0,18.0,1,1,0,True,52.0,52.0,hold
+D034,Flexible,50,5,16,7,13,15,Hold 2,18.0,18.0,2,2,0,True,38.0,38.0,fee_aware
+D007,Flexible,51,1,10,1,5,5,Release,12.0,12.0,0,0,0,True,24.0,24.0,release
+D026,Flexible,51,1,9,1,5,5,Release,12.0,12.0,0,0,0,True,24.0,24.0,reciprocal
+D001,Flexible,51,2,6,2,5,5,Release,9.0,9.0,0,0,0,True,18.0,18.0,reciprocal
+D012,Urgent,51,0,10,0,3,5,Hold 2,9.0,9.0,0,2,0,True,29.0,29.0,hold
+D027,Flexible,51,2,12,2,6,6,Release,12.0,12.0,0,0,0,True,24.0,24.0,release
+D020,Flexible,51,3,9,3,6,8,Hold 2,9.0,9.0,0,2,0,True,22.0,22.0,hold
+D005,Urgent,51,6,14,6,9,9,Release,9.0,9.0,0,0,0,True,27.0,27.0,reciprocal
+D040,Flexible,51,6,10,6,8,10,Hold 2,6.0,6.0,0,2,0,True,16.0,16.0,hold
+D030,Flexible,51,6,12,6,8,10,Hold 2,6.0,6.0,0,2,0,True,16.0,16.0,fee_aware
+D011,Flexible,51,7,12,7,11,11,Release,12.0,12.0,0,0,0,True,24.0,24.0,reciprocal
+D024,Flexible,51,8,15,8,11,11,Release,9.0,9.0,0,0,0,True,18.0,18.0,release
+D035,Urgent,51,7,15,7,11,13,Hold 2,12.0,12.0,0,2,0,True,38.0,38.0,fee_aware
+D013,Urgent,52,0,5,0,3,3,Release,9.0,9.0,0,0,0,True,27.0,27.0,release
+D025,Flexible,52,1,11,1,4,4,Release,9.0,9.0,0,0,0,True,18.0,18.0,release
+D016,Urgent,52,1,7,1,3,5,Hold 2,6.0,6.0,0,2,0,True,20.0,20.0,hold
+D005,Urgent,52,3,6,3,6,6,Forced Release,9.0,9.0,0,0,0,True,27.0,27.0,reciprocal
+D002,Flexible,52,3,6,3,5,6,Hold 1,6.0,6.0,0,1,0,True,14.0,14.0,fee_aware
+D017,Urgent,52,4,7,4,6,6,Release,6.0,6.0,0,0,0,True,18.0,18.0,release
+D029,Urgent,52,7,14,7,9,9,Release,6.0,6.0,0,0,0,True,18.0,18.0,release
+D008,Urgent,52,4,12,4,10,10,Release,18.0,18.0,0,0,0,True,54.0,54.0,reciprocal
+D024,Flexible,52,7,16,7,10,10,Release,9.0,9.0,0,0,0,True,18.0,18.0,release
+D015,Flexible,52,6,11,6,11,11,Forced Release,15.0,15.0,0,0,0,True,30.0,30.0,release
+D036,Urgent,52,3,15,3,9,11,Hold 2,18.0,18.0,0,2,0,True,56.0,56.0,hold
+D009,Flexible,52,5,16,5,9,11,Hold 2,12.0,12.0,0,2,0,True,28.0,28.0,hold
+D026,Flexible,53,1,5,1,4,4,Release,9.0,9.0,0,0,0,True,18.0,18.0,reciprocal
+D021,Urgent,53,1,5,1,4,5,Hold 1,9.0,9.0,0,1,0,True,28.0,28.0,hold
+D024,Flexible,53,1,5,1,5,5,Forced Release,12.0,12.0,0,0,0,True,24.0,24.0,release
+D023,Flexible,53,1,7,1,4,6,Hold 2,9.0,9.0,0,2,0,True,22.0,22.0,fee_aware
+D003,Flexible,53,3,7,4,,7,Departure,12.0,9.0,1,0,0,False,17.0,17.0,reciprocal
+D012,Urgent,53,4,8,6,8,8,Forced Release,6.0,6.0,2,0,0,True,12.0,12.0,hold
+D037,Urgent,53,3,12,5,8,8,Release,9.0,9.0,2,0,0,True,21.0,21.0,reciprocal
+D011,Flexible,53,5,10,8,,10,Departure,12.0,6.0,3,0,0,False,9.0,9.0,reciprocal
+D019,Urgent,53,2,15,2,8,10,Hold 2,18.0,18.0,0,2,0,True,56.0,56.0,fee_aware
+D031,Flexible,53,3,11,5,8,10,Hold 2,9.0,9.0,2,2,0,True,20.0,20.0,hold
+D033,Flexible,53,4,11,7,10,11,Hold 1,9.0,9.0,3,1,0,True,17.0,17.0,hold
+D002,Flexible,53,3,12,3,9,11,Hold 2,18.0,18.0,0,2,0,True,40.0,40.0,fee_aware
+D025,Flexible,54,0,8,0,3,3,Release,9.0,9.0,0,0,0,True,18.0,18.0,release
+D020,Flexible,54,0,6,0,2,4,Hold 2,6.0,6.0,0,2,0,True,16.0,16.0,hold
+D017,Urgent,54,1,10,1,5,5,Release,12.0,12.0,0,0,0,True,36.0,36.0,release
+D012,Urgent,54,0,6,0,4,6,Hold 2,12.0,12.0,0,2,0,True,38.0,38.0,hold
+D037,Urgent,54,0,10,0,6,6,Release,18.0,18.0,0,0,0,True,54.0,54.0,reciprocal
+D036,Urgent,54,2,8,4,,8,Departure,15.0,12.0,2,0,0,False,30.0,30.0,hold
+D013,Urgent,54,2,13,2,8,8,Release,18.0,18.0,0,0,0,True,54.0,54.0,release
+D031,Flexible,54,2,11,3,6,8,Hold 2,9.0,9.0,1,2,0,True,21.0,21.0,hold
+D027,Flexible,54,5,9,8,,9,Departure,9.0,3.0,3,0,0,False,3.0,3.0,release
+D038,Flexible,54,2,10,5,7,9,Hold 2,6.0,6.0,3,2,0,True,13.0,13.0,fee_aware
+D009,Flexible,54,5,14,6,9,11,Hold 2,9.0,9.0,1,2,0,True,21.0,21.0,hold
+D026,Flexible,54,3,14,6,12,12,Release,18.0,18.0,3,0,0,True,33.0,33.0,reciprocal
+D022,Flexible,55,1,3,1,3,3,Forced Release,6.0,6.0,0,0,0,True,12.0,12.0,reciprocal
+D004,Flexible,55,0,10,0,4,4,Release,12.0,12.0,0,0,0,True,24.0,24.0,reciprocal
+D005,Urgent,55,0,5,0,4,4,Release,12.0,12.0,0,0,0,True,36.0,36.0,reciprocal
+D014,Urgent,55,1,8,1,6,6,Release,15.0,15.0,0,0,0,True,45.0,45.0,release
+D012,Urgent,55,2,11,2,5,7,Hold 2,9.0,9.0,0,2,0,True,29.0,29.0,hold
+D021,Urgent,55,2,8,2,7,8,Hold 1,15.0,15.0,0,1,0,True,46.0,46.0,hold
+D020,Flexible,55,5,8,6,,8,Departure,9.0,6.0,1,0,0,False,11.0,11.0,hold
+D009,Flexible,55,3,9,4,8,9,Hold 1,12.0,12.0,1,1,0,True,25.0,25.0,hold
+D034,Flexible,55,2,13,3,8,10,Hold 2,15.0,15.0,1,2,0,True,33.0,33.0,fee_aware
+D033,Flexible,55,4,11,4,10,11,Hold 1,18.0,18.0,0,1,0,True,38.0,38.0,hold
+D026,Flexible,55,6,13,7,10,11,Hold 1,9.0,9.0,1,1,0,True,19.0,19.0,reciprocal
+D032,Flexible,55,7,14,8,10,12,Hold 2,6.0,6.0,1,2,0,True,15.0,15.0,fee_aware
+D029,Urgent,56,1,6,1,3,3,Release,6.0,6.0,0,0,0,True,18.0,18.0,release
+D019,Urgent,56,1,4,1,4,4,Forced Release,9.0,9.0,0,0,0,True,27.0,27.0,fee_aware
+D018,Urgent,56,1,8,1,5,5,Release,12.0,12.0,0,0,0,True,36.0,36.0,release
+D014,Urgent,56,0,12,0,6,6,Release,18.0,18.0,0,0,0,True,54.0,54.0,release
+D015,Flexible,56,1,10,1,6,6,Release,15.0,15.0,0,0,0,True,30.0,30.0,release
+D004,Flexible,56,3,8,3,6,6,Release,9.0,9.0,0,0,0,True,18.0,18.0,reciprocal
+D031,Flexible,56,1,13,1,6,8,Hold 2,15.0,15.0,0,2,0,True,34.0,34.0,hold
+D006,Urgent,56,4,9,4,7,9,Hold 2,9.0,9.0,0,2,0,True,29.0,29.0,fee_aware
+D012,Urgent,56,5,10,6,9,10,Hold 1,9.0,9.0,1,1,0,True,25.0,25.0,hold
+D002,Flexible,56,5,11,5,11,11,Forced Release,18.0,18.0,0,0,0,True,36.0,36.0,fee_aware
+D007,Flexible,56,8,12,8,12,12,Forced Release,12.0,12.0,0,0,0,True,24.0,24.0,release
+D023,Flexible,56,8,16,8,12,14,Hold 2,12.0,12.0,0,2,0,True,28.0,28.0,fee_aware
+D023,Flexible,57,2,9,2,4,6,Hold 2,6.0,6.0,0,2,0,True,16.0,16.0,fee_aware
+D039,Flexible,57,2,8,2,4,6,Hold 2,6.0,6.0,0,2,0,True,16.0,16.0,fee_aware
+D007,Flexible,57,3,10,3,7,7,Release,12.0,12.0,0,0,0,True,24.0,24.0,release
+D016,Urgent,57,1,13,1,6,8,Hold 2,15.0,15.0,0,2,0,True,47.0,47.0,hold
+D036,Urgent,57,2,10,2,6,8,Hold 2,12.0,12.0,0,2,0,True,38.0,38.0,hold
+D026,Flexible,57,4,14,6,9,9,Release,9.0,9.0,2,0,0,True,16.0,16.0,reciprocal
+D011,Flexible,57,3,11,3,9,10,Hold 1,18.0,18.0,0,1,0,True,38.0,38.0,reciprocal
+D037,Urgent,57,7,16,7,11,11,Release,12.0,12.0,0,0,0,True,36.0,36.0,reciprocal
+D017,Urgent,57,4,15,6,12,12,Release,18.0,18.0,2,0,0,True,48.0,48.0,release
+D022,Flexible,57,8,16,8,12,12,Release,12.0,12.0,0,0,0,True,24.0,24.0,reciprocal
+D035,Urgent,57,8,14,9,14,14,Forced Release,15.0,15.0,1,0,0,True,42.0,42.0,fee_aware
+D021,Urgent,57,8,16,8,13,15,Hold 2,15.0,15.0,0,2,0,True,47.0,47.0,hold
+D005,Urgent,58,1,7,1,3,3,Release,6.0,6.0,0,0,0,True,18.0,18.0,reciprocal
+D008,Urgent,58,3,5,3,5,5,Forced Release,6.0,6.0,0,0,0,True,18.0,18.0,reciprocal
+D026,Flexible,58,1,6,1,5,5,Release,12.0,12.0,0,0,0,True,24.0,24.0,reciprocal
+D024,Flexible,58,5,9,5,7,7,Release,6.0,6.0,0,0,0,True,12.0,12.0,release
+D020,Flexible,58,0,10,0,5,7,Hold 2,15.0,15.0,0,2,0,True,34.0,34.0,hold
+D023,Flexible,58,2,8,2,8,8,Forced Release,18.0,18.0,0,0,0,True,36.0,36.0,fee_aware
+D039,Flexible,58,2,10,2,8,10,Hold 2,18.0,18.0,0,2,0,True,40.0,40.0,fee_aware
+D022,Flexible,58,5,16,5,10,10,Release,15.0,15.0,0,0,0,True,30.0,30.0,reciprocal
+D019,Urgent,58,4,15,4,9,11,Hold 2,15.0,15.0,0,2,0,True,47.0,47.0,fee_aware
+D003,Flexible,58,8,12,8,12,12,Forced Release,12.0,12.0,0,0,0,True,24.0,24.0,reciprocal
+D010,Flexible,58,7,15,7,10,12,Hold 2,9.0,9.0,0,2,0,True,22.0,22.0,hold
+D029,Urgent,58,5,13,7,13,13,Forced Release,18.0,18.0,2,0,0,True,48.0,48.0,release
+D012,Urgent,59,1,5,1,4,5,Hold 1,9.0,9.0,0,1,0,True,28.0,28.0,hold
+D026,Flexible,59,0,10,0,6,6,Release,18.0,18.0,0,0,0,True,36.0,36.0,reciprocal
+D022,Flexible,59,3,7,,,7,Unserved,6.0,0.0,4,0,0,False,-4.0,-4.0,reciprocal
+D008,Urgent,59,3,9,5,7,7,Release,6.0,6.0,2,0,0,True,12.0,12.0,reciprocal
+D039,Flexible,59,0,11,0,6,8,Hold 2,18.0,18.0,0,2,0,True,40.0,40.0,fee_aware
+D001,Flexible,59,3,15,3,9,9,Release,18.0,18.0,0,0,0,True,36.0,36.0,reciprocal
+D003,Flexible,59,3,15,3,9,9,Release,18.0,18.0,0,0,0,True,36.0,36.0,reciprocal
+D011,Flexible,59,3,10,6,,10,Departure,15.0,12.0,3,0,0,False,21.0,21.0,reciprocal
+D016,Urgent,59,2,15,2,8,10,Hold 2,18.0,18.0,0,2,0,True,56.0,56.0,hold
+D015,Flexible,59,7,13,8,12,12,Release,12.0,12.0,1,0,0,True,23.0,23.0,release
+D030,Flexible,59,6,13,7,10,12,Hold 2,9.0,9.0,1,2,0,True,21.0,21.0,fee_aware
+D020,Flexible,59,8,14,9,14,14,Forced Release,15.0,15.0,1,0,0,True,29.0,29.0,hold
+D008,Urgent,60,0,5,0,3,3,Release,9.0,9.0,0,0,0,True,27.0,27.0,reciprocal
+D034,Flexible,60,0,7,0,2,4,Hold 2,6.0,6.0,0,2,0,True,16.0,16.0,fee_aware
+D011,Flexible,60,0,5,0,5,5,Forced Release,15.0,15.0,0,0,0,True,30.0,30.0,reciprocal
+D003,Flexible,60,1,11,1,5,5,Release,12.0,12.0,0,0,0,True,24.0,24.0,reciprocal
+D037,Urgent,60,1,10,1,5,5,Release,12.0,12.0,0,0,0,True,36.0,36.0,reciprocal
+D002,Flexible,60,0,10,0,4,6,Hold 2,12.0,12.0,0,2,0,True,28.0,28.0,fee_aware
+D004,Flexible,60,3,16,3,9,9,Release,18.0,18.0,0,0,0,True,36.0,36.0,reciprocal
+D024,Flexible,60,5,11,5,10,10,Release,15.0,15.0,0,0,0,True,30.0,30.0,release
+D026,Flexible,60,7,13,7,10,10,Release,9.0,9.0,0,0,0,True,18.0,18.0,reciprocal
+D029,Urgent,60,6,16,6,12,12,Release,18.0,18.0,0,0,0,True,54.0,54.0,release
+D012,Urgent,60,4,14,4,10,12,Hold 2,18.0,18.0,0,2,0,True,56.0,56.0,hold
+D030,Flexible,60,8,15,8,14,15,Hold 1,18.0,18.0,0,1,0,True,38.0,38.0,fee_aware

@@ -16,7 +16,7 @@ def test_invariants_pass():
     policy = POLICIES["P1"]
 
     # Run 5 days of medium demand
-    reqs = [r for r in requests if r.get("demand") == "medium" and r["day"] < 5]
+    reqs = [r for r in requests if r.get("demand") == "medium" and r["day"] <= 5]
     visits = run_simulation(reqs, drivers, policy, n_chargers=6, n_days=5)
 
     df = pd.DataFrame(visits)
